@@ -1,0 +1,4637 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass revtex4
+\begin_preamble
+\PassOptionsToPackage{english}{babel}
+
+\usepackage{float}
+\usepackage{mathrsfs}
+\usepackage{amsfonts}
+\usepackage{array}
+\usepackage{epsfig}
+% need for subequations
+% defines \lesssim, etc
+\usepackage{graphicx}% need for figures
+\usepackage{verbatim}% useful for program listings
+% use if color is used in text
+\linespread{1.5}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\def\ltap{\raisebox{-.6ex}{\rlap{$\,\sim\,$}} \raisebox{.4ex}{$\,<\,$}}
+\def\gtap{\raisebox{-.6ex}{\rlap{$\,\sim\,$}} \raisebox{.4ex}{$\,>\,$}}
+\def\lra{\leftrightarrow}
+\def\naive{na\"{\i}ve}
+\newcommand{\as}{\alpha_{\mathrm{S}}}
+\newcommand{\f}[2]{\frac{#1}{#2}}
+\def\beq{\begin{equation}}
+\def\b0{\beta_0}
+\def\bone{\beta_1}
+\def\btwo{\beta_2}
+\def\eeq{\end{equation}}
+\def\beeq{\begin{eqnarray}}
+\def\eeeq{\end{eqnarray}}
+\def\bom#1{{\mbox{\boldmath $#1$}}}
+\def\to{\rightarrow}
+\def\ito{\leftarrow}
+\def\nn{\nonumber}
+\def\arrowlimit#1{\mathrel{\mathop{\longrightarrow}\limits_{#1}}}
+\def\qt{q_T}
+\newcommand{\asFPi}{\frac{\as}{4\pi}}
+\def\ptmin{p_{T{\rm min}}}
+\def\ptmax{p_{T{\rm max}}}
+\def\ms{${\overline {\rm MS}}$}
+\def\tL{{\widetilde L}}
+\newcommand{\ib}{\bar{\imath}}
+\end_preamble
+\options english,aps,prd,tightenlines,superscriptaddress,nofootinbib,showpacs,showkeys,floatfix,twocolumn
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Exploring sensitivity of hadronic experiments to the nucleon structure
+\end_layout
+
+\begin_layout Author
+Bo Ting Wang
+\end_layout
+
+\begin_layout Author Email
+botingw@smu.edu
+\end_layout
+
+\begin_layout Affiliation
+Department of Physics, Southern Methodist University,
+\begin_inset Newline newline
+\end_inset
+
+ Dallas, TX 75275-0181, U.S.A.
+ 
+\end_layout
+
+\begin_layout Author
+Sean Doyle
+\end_layout
+
+\begin_layout Author Email
+seand@smu.edu
+\end_layout
+
+\begin_layout Author
+Jun Gao
+\end_layout
+
+\begin_layout Affiliation
+School of Physics and Astronomy, INPAC,
+\begin_inset Newline newline
+\end_inset
+
+ Shanghai Key Laboratory for Particle Physics and Cosmology,
+\begin_inset Newline newline
+\end_inset
+
+ Shanghai Jiao-Tong University, Shanghai 200240, China
+\end_layout
+
+\begin_layout Author Email
+jung49@sjtu.edu.cn
+\end_layout
+
+\begin_layout Affiliation
+ Department of Physics, Southern Methodist University,
+\begin_inset Newline newline
+\end_inset
+
+ Dallas, TX 75275-0181, U.S.A.
+ 
+\end_layout
+
+\begin_layout Author
+Timothy Hobbs
+\end_layout
+
+\begin_layout Author Email
+olness@smu.edu
+\end_layout
+
+\begin_layout Affiliation
+Department of Physics, Southern Methodist University,
+\begin_inset Newline newline
+\end_inset
+
+ Dallas, TX 75275-0181, U.S.A.
+ 
+\end_layout
+
+\begin_layout Author
+Tie-Jiun Hou
+\end_layout
+
+\begin_layout Author Email
+tiejiun.hou@foxmail.com
+\end_layout
+
+\begin_layout Affiliation
+School of Physics Science and Technology, Xinjiang University,
+\begin_inset Newline newline
+\end_inset
+
+ Urumqi, Xinjiang 830046 China 
+\end_layout
+
+\begin_layout Author
+Pavel Nadolsky
+\end_layout
+
+\begin_layout Author Email
+nadolsky@smu.edu
+\end_layout
+
+\begin_layout Affiliation
+ Department of Physics, Southern Methodist University,
+\begin_inset Newline newline
+\end_inset
+
+ Dallas, TX 75275-0181, U.S.A.
+ 
+\end_layout
+
+\begin_layout Author
+Fredrick I.
+ Olness
+\end_layout
+
+\begin_layout Author Email
+olness@smu.edu
+\end_layout
+
+\begin_layout Affiliation
+ Department of Physics, Southern Methodist University,
+\begin_inset Newline newline
+\end_inset
+
+ Dallas, TX 75275-0181, U.S.A.
+ 
+\end_layout
+
+\begin_layout Abstract
+We demonstrate a collection of tools and metrics for quantitatively studying
+ the sensitivity of hadronic measurements to the underlying Parton Distribution
+ Functions (PDFs).
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\color red
+Replace PACS with PhySH:
+\family typewriter
+https://www.aps.org/publications/apsnews/201602/classification.cfm
+\family default
+\color inherit
+ 
+\end_layout
+
+\begin_layout PACS
+
+\color red
+12.15.Ji, 12.38 Cy, 13.85.Qk
+\end_layout
+
+\begin_layout Keywords
+parton distribution functions; large hadron collider; Higgs boson
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+
+\color red
+We'll polish this part near the end
+\end_layout
+
+\begin_layout Subsection
+Statement of the Problem
+\end_layout
+
+\begin_layout Standard
+Parton distribution functions (PDFs) are crucial for understanding the behavior
+ of hadron collisions and then exploring the Standard Model (SM).
+ PDFs describe the structure of hadrons, which affect the configurations
+ of the final particles in the collisions.
+ Therefore, the magnitudes of physical observables in hadron collisions
+ strongly depend on PDFs.
+ Currently, The Large Hadron Collider (LHC) produces a lot of experimental
+ data.
+ Owning to the fact that uncertainties in measurements constantly decrease,
+ reducing the PDF uncertainties of physical observables and using the higher
+ order PDFs will make it easier to find the inconsistency between SM and
+ the data sets collected by the LHC and then discover new physics.
+ Incorporating more (LHC) new data sets in the global fits of PDFs is a
+ naive way to generate better PDF sets with small uncertainties.
+\end_layout
+
+\begin_layout Standard
+However, incorporating more experimental data points will substantially
+ increase the time for fitting PDF sets, especially when we fit higher order
+ PDF sets.
+ From here we know that how to select data sets in global fits will become
+ extremely important in the near future.
+ It is essential to know which data sets will effective constrain the higher
+ order PDFs for the global fits in the limited time of computation.
+ In addition, because physical predictions are sensitive to respective flavors
+ and regions of 
+\begin_inset Formula $\{\xi,\mu\}$
+\end_inset
+
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Experimental folks are probably more used to {x,
+\begin_inset Formula $Q^{2}$
+\end_inset
+
+}.
+\end_layout
+
+\end_inset
+
+in PDFs, we need to narrow down uncertainties of the specific regions of
+ 
+\begin_inset Formula $\{\xi,\mu\}$
+\end_inset
+
+ (in the PDFs).
+ Where partonic 
+\begin_inset Formula $\xi$
+\end_inset
+
+ are momentum fractions and 
+\begin_inset Formula $\mu$
+\end_inset
+
+ are QCD factorization scales.
+ For example, if PDF values for the leading 
+\begin_inset Formula $\{\xi,\mu\}$
+\end_inset
+
+ ranges and flavors that characterize kinematical quantities for Higgs productio
+n processes (e.g.
+ at 
+\begin_inset Formula $\mu=125\,GeV$
+\end_inset
+
+) are tightly constrained, the theoretical predictions for these processes
+ are reliable (precise).
+\end_layout
+
+\begin_layout Enumerate
+methods
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Using correlation between PDF uncertainties in two observables have been
+ proposed to study constraints on PDFs and constraints on observables imposed
+ by PDFs 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pumplin:2001ct"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nadolsky:2001yg"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nadolsky:2008zw"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+the evaluation of the methods
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The approach can help us to find the 
+\begin_inset Formula $\{\xi,\mu\}$
+\end_inset
+
+ ranges of PDFs affecting physical observables such as total cross section
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nadolsky:2008zw"
+
+\end_inset
+
+.
+ It is yet be established that how to know the ranges specifying PDFs constraine
+d by experimental data sets.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Objectives
+\end_layout
+
+\begin_layout Standard
+Thus, establishing a better understanding of the relationships between the
+ strength of constraints on PDF and experimental data sets will be a significant
+ and beneficial contribution to particle physics.
+\end_layout
+
+\begin_layout Subsection
+Methodology
+\end_layout
+
+\begin_layout Standard
+I have developed and tested a systematic method to study the constraints
+ on PDFs imposed by the experimental data sets.
+ I will use established statistical observables to quantify the strength
+ of these constraints.
+\end_layout
+
+\begin_layout Standard
+After that, I will introduce a statistical technique to visualize the regions
+ of partonic momentum fractions 
+\begin_inset Formula $\xi$
+\end_inset
+
+ and QCD factorization scales 
+\begin_inset Formula $\mu$
+\end_inset
+
+ where the experiments impose strong constraints on the PDFs.
+ Recent experimental data will be considered in the analysis in order to
+ provide better constraints to various ranges of PDFs.
+\end_layout
+
+\begin_layout Enumerate
+Scope, Limitations and Assumptions 
+\end_layout
+
+\begin_layout Enumerate
+Significance 
+\end_layout
+
+\begin_layout Enumerate
+Structure of This Paper 
+\end_layout
+
+\begin_layout Subsection
+Overview of paper
+\end_layout
+
+\begin_layout Standard
+The article proceeds as follows.
+ First, in the 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:PDF_fitting"
+
+\end_inset
+
+, we give a brief overview of PDF fitting.
+ Second, the method used to 
+\begin_inset Quotes eld
+\end_inset
+
+see
+\begin_inset Quotes erd
+\end_inset
+
+ PDF from experimental data is introduced in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:chi2-Method"
+
+\end_inset
+
+.
+ Third, an idea to estimate constraint of PDFs that we have seen from this
+ method is provided in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:estimate-PDFresol"
+
+\end_inset
+
+.
+ Fourth, advantages of using correlation, residual uncertainty, and sensitivity
+ to study PDF constraint is discussed in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Sensitivity-data-PDF"
+
+\end_inset
+
+.
+ Two methods are discussed in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Samept-Method"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Grid-Method"
+
+\end_inset
+
+.
+ The corresponding Mathematica code is introduced in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "part:Mathematica-Program"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Overview of Global fitting and Constraints on PDFs 
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Subsection
+Introduction of PDF fitting
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:PDF_fitting"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+How much do they need to know? Whether it is Hessian or MC, we always have
+ a central set, and then a distribution of error sets.
+ 
+\end_layout
+
+\begin_layout Standard
+Specifically, for the Hessian method: 
+\end_layout
+
+\begin_layout Enumerate
+We parameterize 
+\begin_inset Formula $f_{i}(x,Q_{0}^{2})=a_{0}x^{a_{1}}(1-x)^{a_{2}}F(a_{3},a_{4},......)$
+\end_inset
+
+ at Q0
+\end_layout
+
+\begin_layout Enumerate
+determine the best-fitted 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{2}$
+\end_inset
+
+......
+ of the parametrization functions by minimizing 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+determine uncertainties of the parametrization functions by requiring 
+\begin_inset Formula $\chi^{2}<\chi_{min}^{2}+\chi_{torelance}^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+convert from 
+\begin_inset Formula $\{a_{0},a_{1},a_{2},...\}$
+\end_inset
+
+ basis to an eigenvector basis 
+\begin_inset Formula $\{r_{i}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\strikeout on
+To fit PDF sets, we first need to determine the input theoretical model
+ and data sets.
+ The model includes the selection of quark mass, coupling constants and
+ the order considered in the correction of perturbation (i.e.
+ LO, NLO and etc).
+ Then we determine the parametrization function form 
+\begin_inset Formula $f_{q}(\xi,Q_{0})=a_{0}\xi^{a_{1}}(1-\xi)^{a_{2}}F(a_{3},a_{4},......)$
+\end_inset
+
+ at the lowest factorization scale 
+\begin_inset Formula $Q_{0}$
+\end_inset
+
+, for which we need to take some physical rules into account.
+ For instance, 
+\begin_inset Formula $a_{0}\xi^{a_{1}}(1-\xi)^{a_{2}}$
+\end_inset
+
+ term requires that the probabilities of the partons with momentum fraction
+ 
+\begin_inset Formula $\xi=1$
+\end_inset
+
+ or 
+\begin_inset Formula $\xi=0$
+\end_inset
+
+ are 
+\begin_inset Formula $0$
+\end_inset
+
+.
+ Besides, the momentum conservation (
+\begin_inset Formula $\int_{0}^{1}\xi\underset{i}{\sum}f_{i}(\xi,Q)dx=1$
+\end_inset
+
+) requires that the total momentum of all subparticles in each hadron should
+ equal to the kinematical momentum of that hadron.
+ (
+\begin_inset Formula $\int_{0}^{1}(u(x)-\bar{u}(x))dx=2$
+\end_inset
+
+ and 
+\begin_inset Formula $\int_{0}^{1}(d(x)-\bar{d}(x))dx=1$
+\end_inset
+
+) require that protons consist of 
+\begin_inset Formula $uud$
+\end_inset
+
+ at the low factorization scale.
+ we use 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ minimization to explore the best fit parameters 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{2}$
+\end_inset
+
+ and etc.
+ 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ analysis applies the ratios of the deviations between theoretical predictions
+ and experimental values to experimental error bars to quantify the goodness
+ of fits.
+ Here are steps of the PDF fitting: 
+\end_layout
+
+\begin_layout Enumerate
+
+\strikeout on
+select the experimental data sets and theoretical model in global fits 
+\end_layout
+
+\begin_layout Enumerate
+
+\strikeout on
+write down parametrization functions of all flavors 
+\end_layout
+
+\begin_layout Enumerate
+
+\strikeout on
+determine the best-fitted 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $a_{2}$
+\end_inset
+
+......
+ of the parametrization functions by minimizing 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\strikeout on
+determine uncertainties of the parametrization functions by requiring 
+\begin_inset Formula $\chi^{2}<\chi_{min}^{2}+\chi_{torelance}^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection
+PDF fitting with 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ Method
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:chi2-Method"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+This is just defining the residuals.
+ Is that all we need???
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ test is a way to evaluate the goodness of fits.
+ We assume good fits are theoretical predictions within experimental error
+ bar.
+ Thus, by residuals (
+\begin_inset Formula $r_{i}$
+\end_inset
+
+) of data points 
+\begin_inset Formula $i$
+\end_inset
+
+, We can estimate the goodness of the fit of this point.
+ For data sets, the goodness of fits is the sum of all points 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+, which means that we use the squared distance to evaluate the agreement
+ between the model and the data sets.
+ Hence, we can obtain the best coefficients of the model by minimizing 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\chi^{2}\gg N_{data}$
+\end_inset
+
+ for a data set and a theory, this fit is bad.
+ If 
+\begin_inset Formula $\chi^{2}\leq N_{data}$
+\end_inset
+
+, this fit is better than expected.
+ If 
+\begin_inset Formula $\chi^{2}\ll N_{data}$
+\end_inset
+
+, this fit is over-fitted.
+ To sum up, 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ could be defined as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r_{i}=\frac{T_{i}-D_{i}}{\sigma_{i}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\chi^{2}=\sum_{i\text{\ensuremath{\in}Expt data}}r_{i}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Where i 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+, 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+, 
+\begin_inset Formula $D_{i}$
+\end_inset
+
+, and 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ are the residual, theoretical prediction, experimental central value, and
+ experimental uncertainty in data point 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ When we take systematic uncertainties into account, the experimental central
+ values should be modified to 
+\begin_inset Formula $D_{shift,i}=D_{i}+shift_{i}$
+\end_inset
+
+ since the averages of the measurements are shifted from the real values.
+ Here we provide criteria of good PDF fittings 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\chi^{2}\simeq N_{data}$
+\end_inset
+
+, the smaller a 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+, the better a fitting 
+\end_layout
+
+\begin_layout Enumerate
+if residuals of points 
+\begin_inset Formula $i$
+\end_inset
+
+ are small (
+\begin_inset Formula $|r|<1$
+\end_inset
+
+, 
+\begin_inset Formula $r$
+\end_inset
+
+ is called residual 
+\begin_inset Formula $\frac{T_{i}-D_{shift,i}}{\sigma_{i}}$
+\end_inset
+
+), the fit of these points is good 
+\end_layout
+
+\begin_layout Subsection
+How to estimate PDF constraints
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:estimate-PDFresol"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Here we show samples of the types of plot output the program can make.
+ 
+\end_layout
+
+\begin_layout Standard
+In general, we estimate the uncertainties of the parameters describing PDFs
+ by constraining 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ value.
+ In other words, we identify the region representing to the parameter uncertaint
+ies by the region with 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ smaller than 
+\begin_inset Formula $\chi_{min}^{2}+\chi_{torelance}^{2}$
+\end_inset
+
+.
+ We learn that constraints on PDFs are from constraining the upper bound
+ of the goodness of fits.
+ When we fit theoretical models to match experimental data so that 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ for data points 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ are not too large, PDFs are constrained.
+ Thus, we use 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ to see the constraints on PDFs because they represent the criteria of the
+ goodness of fits and 
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+ values are constrained to meet this criteria.
+ In other words, the criteria could determine the range of 
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+.
+ For instance, Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:deltaR"
+
+\end_inset
+
+ is the comparison of two different fluctuations of theoretical values.
+ Even though mean values of red crosses and blue crosses are the same, we
+ can find the fluctuation of red crosses is easier to be detected because
+ it's affection on residual values is larger than the fluctuation of blue
+ crosses.
+ Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sensitivity"
+
+\end_inset
+
+ is the comparison of two different fluctuations of residuals depending
+ on 
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+.
+ Although both of red circles and blue circles are strongly correlated,
+ red circles are more sensitive to 
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+ because the 
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+ fluctuation of red circles strongly affects values of residuals.
+ Therefore, To understand the relationship between data sets and the constraints
+ on PDFs imposed by these data sets, we should study whether 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ are sensitive to the variation of 
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+ values.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/show_residue.png
+	lyxscale 50
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Theoretical predictions and an experimental data point measurement with
+ the error bar.
+ Red crosses and blue crosses are two sets of theoretical prediction uncertainti
+es.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:deltaR"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/fxQ_residual_relation_math.eps
+	lyxscale 50
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The sensitivity of a data point to a PDF.
+ Red circles and blue circles are residuals of two data points versus f(x,Q)
+ values in PDF error sets
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sensitivity"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Systematic method for studying constraints on PDFs imposed by experimental
+ data sets
+\end_layout
+
+\begin_layout Standard
+
+\color red
+framework
+\end_layout
+
+\begin_layout Standard
+I have developed and tested a systematic method to study the constraints
+ on PDFs imposed by experimental data sets.
+ I use established statistical observables to quantify the strength of these
+ constraints.
+ After that, I introduce a statistical technique to visualize the regions
+ of partonic momentum fractions 
+\begin_inset Formula $\xi$
+\end_inset
+
+ and QCD factorization scales 
+\begin_inset Formula $\mu$
+\end_inset
+
+ where the experiments impose strong constraints on the PDFs.
+ Recent experimental data is considered in the analysis in order to provide
+ better constraints to various ranges of PDFs.
+\end_layout
+
+\begin_layout Standard
+To test the effectiveness of the proposed method, I study constraints on
+ CT14NNLO parton distributions 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dulat:2015mca"
+
+\end_inset
+
+ from various data sets.
+ I include various types of experimental data sets in the analysis, including
+ DIS processes, 
+\begin_inset Formula $Z\rightarrow l^{+}l^{-},d\sigma/dy(l)$
+\end_inset
+
+, 
+\begin_inset Formula $W\rightarrow l\nu$
+\end_inset
+
+, and jet productions (
+\begin_inset Formula $p_{1}p_{2}\rightarrow jjX)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+visualization method
+\end_layout
+
+\begin_layout Standard
+For data sets of interest, we can demonstrate and identify values of correlation
+/sensitivity data by different colors on the 
+\begin_inset Formula $\xi-\mu$
+\end_inset
+
+ plane (
+\begin_inset Formula $2D-\xi-\mu$
+\end_inset
+
+ figure), such as Figs.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sensitivity"
+
+\end_inset
+
+, which help us to rapidly estimate the distribution of the strength of
+ constraints on the 
+\begin_inset Formula $\xi-\mu$
+\end_inset
+
+ plane.
+ We can also know the number of data points constraining PDFs by the histograms
+ of the statistical quantities.
+\end_layout
+
+\begin_layout Subsection
+Statistical quantities for constraints 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Sensitivity-data-PDF"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+introduction correlation and sensitivity
+\end_layout
+
+\begin_layout Standard
+Among various quantities that characterize the sensitivity of the experimental
+ data to the PDFs, the correlations 
+\begin_inset Formula $Corr(f_{a}(\xi,\mu),r_{i})$
+\end_inset
+
+ of PDFs 
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+ and residuals 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ can determine whether there exist predictive relationships between PDFs
+ and goodness of fit to data points.
+ Here 
+\begin_inset Formula $a$
+\end_inset
+
+ is the flavor index, and 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ is the residual of data point 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ We can also define a factor 
+\begin_inset Formula $\delta r_{i}\times Corr(f_{a}(\xi,\mu),r_{i})$
+\end_inset
+
+ to quantify the sensitivity of the experimental datum to a variation of
+ the PDF.
+ Both correlation and sensitivity are useful for constraining PDFs.
+ 
+\end_layout
+
+\begin_layout Description
+
+\color black
+correlation
+\color inherit
+ 
+\begin_inset space ~
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color red
+correlation's advantages
+\end_layout
+
+\begin_layout Standard
+Correlation illustrates the strength of the predictive relation between
+ any two observables 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+ We can use values of one observable to predict values of another observable
+ very well when their correlation is close to 
+\begin_inset Formula $\pm1$
+\end_inset
+
+.
+ correlations of Hessian uncertainties 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pumplin:2001ct"
+
+\end_inset
+
+ have been used to see the simultaneous constraint on observables 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+, and to get constraints on PDFs 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pumplin:2001ct"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nadolsky:2001yg"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nadolsky:2008zw"
+
+\end_inset
+
+.
+ First, via measuring one physical observable, we are able to predict the
+ value of another observable precisely.
+ In addition, strong correlations are highly likely to show the signs of
+ some physical relations, such as causation, between the two observables.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Hessian correlation: definition and physical meaning
+\end_layout
+
+\begin_layout Standard
+There are several ways to evaluate uncertainties on PDFs such as the Hessian
+ method 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pumplin:2001ct"
+
+\end_inset
+
+, the Monte Carlo method 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Giele:1998gw"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Giele:2001mr"
+
+\end_inset
+
+, and the Lagrange Multiplier 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Stump:2001gu"
+
+\end_inset
+
+.
+ Our PDF set input is CT14NNLO, which uses the Hessian method to estimate
+ uncertainties information.
+ This idea is based on the quadratic assumption.
+ According to the quadratic assumption, we will get an elliptical shape
+ of PDF parameter space around the best fit parameters 
+\begin_inset Formula $\overset{\rightharpoonup}{a_{0}}$
+\end_inset
+
+ for a given tolerance parameter 
+\begin_inset Formula $\chi_{tolerance}^{2}$
+\end_inset
+
+ satisfying 
+\begin_inset Formula $\chi^{2}(\overset{\rightharpoonup}{a})<\chi^{2}(\overset{\rightharpoonup}{a_{0}})+\chi_{torelance}^{2}$
+\end_inset
+
+.
+ If errors of an observable 
+\begin_inset Formula $X$
+\end_inset
+
+ along the 
+\begin_inset Formula $\pm$
+\end_inset
+
+ directions of 
+\begin_inset Formula $i$
+\end_inset
+
+-th dimension of the ellipse are 
+\begin_inset Formula $X_{i}^{+}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{i}^{-}$
+\end_inset
+
+, the uncertainty of 
+\begin_inset Formula $X$
+\end_inset
+
+ based on the variation of parameter at 
+\begin_inset Formula $i$
+\end_inset
+
+-th dimension could be approximated by 
+\begin_inset Formula $(X_{i}^{+}-X_{i}^{-})/2$
+\end_inset
+
+.
+ According to the principle of error propagations, the 
+\begin_inset Formula $X$
+\end_inset
+
+ uncertainty via PDF parameter space is 
+\begin_inset Formula $\Delta X=\frac{1}{2}\sqrt{\underset{i}{\sum}(X_{i}^{+}-X_{i}^{-})^{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+Move these definitions to an appendix???
+\end_layout
+
+\begin_layout Standard
+Our idea of studying PDF constraints from data sets uses the correlation
+ between PDF Hessian sets and residual Hessian sets, where the Hessian correlati
+on of two observables is defined as 
+\begin_inset Formula $cos\phi=\underset{i}{\sum}(X_{i}^{+}-X_{i}^{-})(Y_{i}^{+}-Y_{i}^{-})/4\Delta X\Delta Y$
+\end_inset
+
+.
+ The correlation of any two observables 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ could be used to see the simultaneous constraint of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pumplin:2001ct"
+
+\end_inset
+
+.
+ The ellipse of simultaneous constraint could be described by Lissajous
+ figure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X=X_{0}+\Delta X\,sin(\theta+\phi)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Y=Y_{0}+\Delta Y\,sin(\theta+\phi)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $0<\theta<2\pi$
+\end_inset
+
+ traces the shape of the ellipse, and whether the shape is needle-like or
+ circle-like is controlled by 
+\begin_inset Formula $\phi$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $|cos\phi|\simeq1$
+\end_inset
+
+, the shape is needle-like, which strongly constrains 
+\begin_inset Formula $Y$
+\end_inset
+
+ for a given 
+\begin_inset Formula $\delta X$
+\end_inset
+
+ (see Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:corr-ellipse"
+
+\end_inset
+
+).
+ Thus, the correlations 
+\begin_inset Formula $Corr(f_{a}(\xi,\mu),r_{i})$
+\end_inset
+
+ of PDFs 
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+ and the residuals 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\color inherit
+can determine the strength of constraints on PDFs imposed by 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ in experimental data points.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/correlation_ellipses.eps
+	width 100col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Lissajous figure of observables X and Y for different 
+\begin_inset Formula $cos\phi$
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:corr-ellipse"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+construct more representative statistical quantity for constraints: 
+\end_layout
+
+\begin_layout Standard
+strength of constraints on PDFs imposed by 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ (
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+Although we can know the predictivities between PDFs and measurements through
+ 
+\begin_inset Formula $Corr(f_{a}(\xi,\mu),r_{i})$
+\end_inset
+
+, 
+\begin_inset Formula $Corr(f_{a}(\xi,\mu),r_{i})$
+\end_inset
+
+ could not specify the strength of constraints on PDFs imposed by 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ (
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+).
+ For instance, the measurements with large uncertainties cannot effectively
+ constrain 
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+ no matter how large 
+\begin_inset Formula $Corr(f_{a}(\xi,\mu),r_{i})$
+\end_inset
+
+ is, since 
+\begin_inset Formula $r_{i}$
+\end_inset
+
+ is not sensitive to the variation of 
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+.
+ Therefore, we want to find a more representative statistical quantity for
+ 
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+.
+ 
+\color black
+To study 
+\color inherit
+
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ between PDFs and data sets, we study the variation of 
+\color inherit
+
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ and 
+\color inherit
+
+\begin_inset Formula $r_{i}$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ associated with the fluctuation in 
+\color inherit
+
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+
+\color black
+.
+ Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sensitivity"
+
+\end_inset
+
+ shows 
+\color inherit
+
+\begin_inset Formula $r_{i}$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ in data points depending on the variation in 
+\color inherit
+
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ error sets.
+ We find that despite the fact that the correlation between 
+\color inherit
+
+\begin_inset Formula $r_{i}$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ in two data points (red circles and blue circles) and 
+\color inherit
+
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ are the same, the fluctuation for 
+\color inherit
+
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ imposes different levels of impact to 
+\color inherit
+
+\begin_inset Formula $r_{i}$
+\end_inset
+
+.
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ The 
+\color inherit
+
+\begin_inset Formula $r_{i}$
+\end_inset
+
+,
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ represented by red circles, are more sensitive to 
+\color inherit
+
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+
+\color black
+, which indicates that when we constrain 
+\color inherit
+
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ for getting the new fitted 
+\color inherit
+
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ error sets, the data point represented by the red circles will more dramaticall
+y narrow down the range of the new 
+\color inherit
+
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ error sets so that 
+\color inherit
+
+\begin_inset Formula $r_{i}$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ for error sets become smaller.
+ Here we find the 
+\color inherit
+
+\begin_inset Formula $\delta r_{i}$
+\end_inset
+
+
+\color black
+, which evaluates the fraction of theoretical and experimental uncertainties,
+ indicating whether the theoretical uncertainties are apt to be constrained
+ after the fitting.
+ For the above reasons, we advise using 
+\color inherit
+
+\begin_inset Formula $\delta r_{i}\times Corr(f_{a}(\xi,\mu),r_{i})$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ to quantify the sensitivity (
+\color inherit
+
+\begin_inset Formula $Sen(f_{a}(\xi,\mu),r_{i})$
+\end_inset
+
+
+\color black
+) for 
+\color inherit
+
+\begin_inset Formula $r_{i}$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ to 
+\color inherit
+
+\begin_inset Formula $f_{a}(\xi,\mu)$
+\end_inset
+
+
+\color black
+, and using the sensitivity to estimate 
+\color inherit
+
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+
+\color black
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ for data point 
+\color inherit
+
+\begin_inset Formula $i$
+\end_inset
+
+
+\color black
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Same point method 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Samept-Method"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+objective
+\end_layout
+
+\begin_layout Standard
+In principle, we can use the correlation & sensitivity mentioned above to
+ quantify 
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+ for any points on the 
+\begin_inset Formula $\xi-\mu$
+\end_inset
+
+ plane and data point 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ Therefore, we can identify which regions in the 
+\begin_inset Formula $\xi-\mu$
+\end_inset
+
+ plane have strong 
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+.
+ Our objective is to characterize the strongly constrained ranges (Strong
+ 
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+ Regions) imposed by the given data sets.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+difficulties in the analysis and solutions
+\end_layout
+
+\begin_layout Standard
+Acquiring the corresponding Strong 
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+ Regions for each point 
+\begin_inset Formula $i$
+\end_inset
+
+ still could not tell us which ranges are constrained by each data set because
+ the amount of information in all data points is too large to analyze it.
+ Therefore, we present a simple method as follows.
+ For each data point 
+\begin_inset Formula $i$
+\end_inset
+
+, we select the points (or the ranges) in the 
+\begin_inset Formula $\xi-\mu$
+\end_inset
+
+ plane whose 
+\begin_inset Formula $f_{a}(\xi_{i},\mu_{i})$
+\end_inset
+
+ are constrained most by the point 
+\begin_inset Formula $i$
+\end_inset
+
+ (Max 
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+ Regions).
+ Here we assume that in scattering processes, sizes of physical observables
+ are mainly contributed by the ranges near 
+\begin_inset Formula $\{\xi_{i},\mu_{i}\}$
+\end_inset
+
+.
+ Thus, it is highly possible that the measurement at point 
+\begin_inset Formula $i$
+\end_inset
+
+ will impose the strongest constraints on the 
+\begin_inset Formula $f_{a}(\xi_{i},\mu_{i})$
+\end_inset
+
+ in these ranges.
+ As a result, the combination of these ranges describes the most constrained
+ ranges for all data points in each data set.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+capability
+\end_layout
+
+\begin_layout Standard
+It is possible to evaluate those PDF ranges.
+ For each experimental data point 
+\begin_inset Formula $i$
+\end_inset
+
+, we can establish an approximate relation between the kinematical quantities
+ for that data point, and unobserved quantities 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $\xi$
+\end_inset
+
+, and 
+\begin_inset Formula $\mu$
+\end_inset
+
+ specifying the PDFs, where 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $\xi$
+\end_inset
+
+, and 
+\begin_inset Formula $\mu$
+\end_inset
+
+ are flavor, momentum fraction, and resolution scale of partons.
+ For example, in DIS, 
+\begin_inset Formula $\xi$
+\end_inset
+
+ and 
+\begin_inset Formula $\mu$
+\end_inset
+
+ are approximately equal to Bjorken 
+\begin_inset Formula $x$
+\end_inset
+
+ and momentum transfer 
+\begin_inset Formula $Q$
+\end_inset
+
+ according to the Born-level kinematic relation.
+ However, this relation is violated in high-order radiative contributions.
+ Nevertheless, this relation will approximately hold in most scattering
+ events.
+ Therefore, we derive the relation between the kinematical quantities and
+ unobserved quantities we mentioned for data sets in our analysis, including
+ DIS, 
+\begin_inset Formula $dXsec/dy(l)$
+\end_inset
+
+ of 
+\begin_inset Formula $Z\rightarrow l_{+}l_{-}$
+\end_inset
+
+, 
+\begin_inset Formula $dXsec/dy(l)$
+\end_inset
+
+ of 
+\begin_inset Formula $W\rightarrow l\nu$
+\end_inset
+
+, and (di)jet productions.
+ In practice, our fitted PDF sets are not perfect, so even some ranges of
+ the real PDF dominate a physical observable, the PDF sets in these ranges
+ are not always strongly correlated to that physical observable.
+\end_layout
+
+\begin_layout Standard
+Following are formulas (code part: selectExptxQv2 in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:library:-dtareadbotingw2016"
+
+\end_inset
+
+) connecting experimental data points and their leading 
+\begin_inset Formula ${\xi,\mu}$
+\end_inset
+
+ points of PDFs:
+\end_layout
+
+\begin_layout Standard
+DIS: 
+\begin_inset Formula ${x,Q}_{data}={\xi,\mu}_{PDF}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z\rightarrow l_{+}l_{-},dXsec/dy(l)$
+\end_inset
+
+: 
+\begin_inset Formula ${(Q/\sqrt{S})\times\exp(\pm y),Q}_{data}={\xi,\mu}_{PDF}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $W\rightarrow l\nu$
+\end_inset
+
+: same as 
+\begin_inset Formula $Z\rightarrow l_{+}l_{-},dXsec/dy(l)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+JP (
+\begin_inset Formula $q_{1}q_{2}\rightarrow j_{1}j_{2}$
+\end_inset
+
+, estimate 
+\begin_inset Formula $\xi_{1},\xi_{2}$
+\end_inset
+
+ of jet as peak of 
+\begin_inset Formula $y(j_{1}),y(j_{2})$
+\end_inset
+
+): 
+\begin_inset Formula ${(2P_{T}/\sqrt{S})\times\exp(\pm y),P_{T}}_{data}={\xi,\mu}_{PDF}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Process
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Experimental 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Theortical
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+notes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ref???
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DIS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\{x,Q^{2}\}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\{\xi,\mu\}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Z Prog
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\{\tau,y\}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jet Pro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\{y,p_{T}\}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+table 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here we give physics of these formulas.
+ DIS processes are just mentioned in the example.
+ In lepton pair production and (di)jet production, the rapidities of the
+ final-state pairs are small for most events.
+ If 
+\begin_inset Formula $y$
+\end_inset
+
+ is integrated out, we set 
+\begin_inset Formula $y=0$
+\end_inset
+
+ 
+\begin_inset Formula $\tau=Q/\sqrt{S}$
+\end_inset
+
+ 
+\begin_inset Formula $\xi_{1}=\xi_{2}=\tau$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $y$
+\end_inset
+
+ of the lepton pair or jet pair is known, we set 
+\begin_inset Formula $\xi_{1,2}=\tau\cdot\exp(\pm y)$
+\end_inset
+
+.
+ For jet production, 
+\begin_inset Formula $\tau=2p_{T}^{{\rm jet}}/\sqrt{S}$
+\end_inset
+
+ at the leading order.
+ In most events, if rapidity 
+\begin_inset Formula $y_{l}$
+\end_inset
+
+ of the lepton is known yet 
+\begin_inset Formula $y$
+\end_inset
+
+ of the boson is unknown, we use the fact that 
+\begin_inset Formula $y_{l}\sim y\pm1$
+\end_inset
+
+ for most events.
+ You can still estimate 
+\begin_inset Formula $\xi_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\xi_{2}$
+\end_inset
+
+ as 
+\begin_inset Formula $\xi_{1,2}=\tau\cdot\exp(\pm y)$
+\end_inset
+
+, where 
+\begin_inset Formula $y\sim y_{l}$
+\end_inset
+
+ (up to an error of less than 1 unit).
+\end_layout
+
+\begin_layout Standard
+
+\color red
+advantages
+\end_layout
+
+\begin_layout Standard
+Because Max 
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+ Regions are obtained from a physical relation, we know the constraints
+ in these ranges are the real physical constraints rather than the results
+ of other factors, such as parametrization function dependency.
+\end_layout
+
+\begin_layout Standard
+
+\color red
+practical procedure (step by step)
+\end_layout
+
+\begin_layout Standard
+Finally, we provide steps of Same point method.
+ Steps are as follows: 
+\end_layout
+
+\begin_layout Enumerate
+calculate Max 
+\begin_inset Formula $SOC(PDF)$
+\end_inset
+
+ Regions 
+\begin_inset Formula $\{\xi_{i},\mu_{i}\}$
+\end_inset
+
+ from corresponding experimental data points 
+\begin_inset Formula $i$
+\end_inset
+
+ by using a suitable transformation formula describing the approximate relation
+ between 
+\begin_inset Formula $\{\xi_{i},\mu_{i}\}$
+\end_inset
+
+ and kinematical quantities for points 
+\begin_inset Formula $i$
+\end_inset
+
+ (code part: selectExptxQv2 in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:library:-dtareadbotingw2016"
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Enumerate
+for each data point, calculate all flavours of PDF values for the same 
+\begin_inset Formula $\{\xi_{i},\mu_{i}\}$
+\end_inset
+
+ (executable part: fxQsamept.nb in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Input-Output"
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Enumerate
+calculate correlation 
+\begin_inset Formula $Corr(f_{a}(\xi_{i},\mu_{i}),r_{i})$
+\end_inset
+
+, sensitivity 
+\begin_inset Formula $\delta r_{i}*Corr(f_{a}(\xi,\mu),r_{i})$
+\end_inset
+
+, and other statistical quantities (
+\begin_inset Formula $r_{i,central\,value}$
+\end_inset
+
+, 
+\begin_inset Formula $\delta r_{i}$
+\end_inset
+
+, and experimental error ratio in this code) for every point 
+\begin_inset Formula $i$
+\end_inset
+
+ and every flavor 
+\begin_inset Formula $a$
+\end_inset
+
+ (executable: fxQsamept_corr.nb in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Input-Output"
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Enumerate
+draw the histograms and 
+\begin_inset Formula $2D-\xi-\mu$
+\end_inset
+
+ figures for the statistical quantities derived in step 3 (executable: run_v3.nb
+ in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Input-Output"
+
+\end_inset
+
+, example figure: 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:corr-sensitivity-281"
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/blank.eps
+	lyxscale 50
+	width 40text%
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The correlation and sensitivity of the Hessian uncertainty of data set 281(D0
+ Run-2) and CT14NNLO depending on the momentum fraction and the factorization
+ scale.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:corr-sensitivity-281"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/blank.eps
+	lyxscale 50
+	width 40text%
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The correlation and sensitivity of the Hessian uncertainty of data set 225(cdfLa
+sy) and CT14NNLO depending on the momentum fraction and the factorization
+ scale.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:corr-sensitivity-225"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/blank.eps
+	lyxscale 50
+	width 40text%
+	clip
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The correlation and sensitivity of the Hessian uncertainty of data set 247(ATL7Z
+pt) and CT14NNLO depending on the momentum fraction and the factorization
+ scale.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-corr-sensitivity-247"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/corr_sample.pdf
+	lyxscale 50
+	width 45text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sample Figure.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/corr_sample.pdf
+	lyxscale 50
+	width 45text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sample Figure.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The Metrics:
+\end_layout
+
+\begin_layout Subsection
+The metrics
+\end_layout
+
+\begin_layout Standard
+We briefly introduce the various metrics which we can use to evaluate the
+ relative sensitivity of separate experimental measurements to the individual
+ PDF flavors.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Correlations
+\end_layout
+
+\begin_layout Standard
+In Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqCorrTopGluon"
+
+\end_inset
+
+ we display the computed correlation between the top quark production process
+ and the gluon PDFs.
+ The correlations are defined in Eq.**** and the values range over the interval
+ 
+\begin_inset Formula $[-1,1]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqCorrTopGluon"
+
+\end_inset
+
+-a) we show the histogram of the absolute values of the correlations for
+ each of the 35 data points in the top quark production set.
+ Larger magnitudes imply a stronger correlation, and we have arbitrarily
+ drawn a line at 
+\begin_inset Formula $0.7$
+\end_inset
+
+ to focus on the larger values.
+ In Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqCorrTopGluon"
+
+\end_inset
+
+-a) there are 11 out of 35 data points with an absolute correlation above
+ the 0.7 mark.
+ 
+\end_layout
+
+\begin_layout Standard
+In Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqCorrTopGluon"
+
+\end_inset
+
+-b) we display the absolute value of the correlation in the 
+\begin_inset Formula $\{x,\mu\}$
+\end_inset
+
+ plane.
+ This allows us to see the specific kinematic region where the data contributes.
+ The points are color-coded according to the legend in the figure, and the
+ points above the 0.7 threshold are enlarge to emphasize their contributions.
+ 
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $\mu\sim350\,$
+\end_inset
+
+GeV there is a grouping of data points corresponding to pair production
+ of top–anti-top quarks.
+ There is also a group of points *** [describe the points on the slope]
+ ***
+\end_layout
+
+\begin_layout Subsubsection
+Sensitivity
+\end_layout
+
+\begin_layout Standard
+Although the correlation is a useful measure, this has a potential drawback
+ that if the uncertainties of the measurement are large then the net constrainin
+g power of the data could be minimal.
+ To address this deficiency, we can construct a new quantity which we will
+ label as the sensitivity and define as the residual times the correlation.
+ Thus, data sets with both a strong correlation and a strong pull will have
+ a large impact on the fit, and hence a large sensitivity.
+ 
+\end_layout
+
+\begin_layout Standard
+In Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqSensTopGluon"
+
+\end_inset
+
+ we display the computed sensitivity between the top quark production process
+ and the gluon PDFs.
+ In contrast to the correlations which are constrained to the interval 
+\begin_inset Formula $[-1,1]$
+\end_inset
+
+, the sensitivity can in principle take on any value: 
+\begin_inset Formula $[-\infty,\infty]$
+\end_inset
+
+; in practice, we expect the sensitivity to be centered about zero with
+ a roughly Gaussian distribution.
+ 
+\end_layout
+
+\begin_layout Standard
+In Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqSensTopGluon"
+
+\end_inset
+
+-a) we show the histogram of the absolute values of the sensitivity for
+ each of the 35 data points in the top quark production set.
+ Larger magnitudes imply a stronger sensitivity, and we have arbitrarily
+ drawn a line at 
+\begin_inset Formula $1.0$
+\end_inset
+
+ to focus on the larger values.
+ In Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqSensTopGluon"
+
+\end_inset
+
+-a) there are only 1 out of 35 data points with an absolute correlation
+ above the 1.0 mark.
+ 
+\end_layout
+
+\begin_layout Standard
+In Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqSensTopGluon"
+
+\end_inset
+
+-b) we display the absolute value of the sensitivity in the 
+\begin_inset Formula $\{x,\mu\}$
+\end_inset
+
+ plane.
+ This allows us to see the specific kinematic region where the data contributes.
+ The points are color-coded according to the legend in the figure, and the
+ points above the 0.25 threshold are enlarge to emphasize their contributions.
+ 
+\end_layout
+
+\begin_layout Standard
+Again we see the distribution of the data points are grouped along a line
+ at 
+\begin_inset Formula $\mu\sim350\,$
+\end_inset
+
+GeV corresponding to pair production of top–anti-top quarks.
+ There is also a group of points *** [describe the points on the slope]
+ ***
+\end_layout
+
+\begin_layout Section
+Selected Case Studies:
+\end_layout
+
+\begin_layout Standard
+Using the correlations and the sensitivity described in the previous chapter,
+ we can examine individual data sets to answer detailed questions about
+ the influence on the PDF flavors.
+ 
+\end_layout
+
+\begin_layout Standard
+Here we will present two example analyses demonstrating the utility of these
+ metrics.
+ First we will study the influence of both the top quark and jet production
+ data on the gluon PDF.
+ Next we will look at a future LHeC facility and investigate how new data
+ might further constrain the PDFs.
+ 
+\end_layout
+
+\begin_layout Subsection
+Constraining the Gluon
+\end_layout
+
+\begin_layout Standard
+Before high precision top production data sets were available, the primary
+ constraints on the gluon PDF came from the inclusive jet cross section
+ measurements.
+ With the recent LHC runs, we additionally have high-precision measurements
+ of top quark production available.
+ Thus, we can now study the extent to which each data set constrains the
+ gluon PDF.
+ We will find the correlations and sensitivities introduced in the previous
+ section are helpful in addressing this queston.
+ We begin by comparing the correlation and sensitivity relating the gluon
+ PDF with the top quark production (discussed in the previous section) to
+ the same quantities relating the gluon PDF to the jet cross section.
+ Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqCorrJetGluon"
+
+\end_inset
+
+ displays the correlations, and Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqSensJetGluon"
+
+\end_inset
+
+ displays the sensitivity.
+ 
+\end_layout
+
+\begin_layout Standard
+Examining the correlations between the jet cross sections and the gluon
+ PDFs, in Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqCorrJetGluon"
+
+\end_inset
+
+-a) we show a histogram of the correlations for all 538 jet data points.
+ As before, we indicate a arbitrary threshold at a correlation of 0.7; there
+ are XXX data points in this region.
+ Recall, for the top production cross section we had a total of 35 points
+ with 11 above the 0.7 cut.
+ 
+\end_layout
+
+\begin_layout Standard
+In Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqCorrJetGluon"
+
+\end_inset
+
+-b) we display the absolute value of the correlation in the 
+\begin_inset Formula $\{x,\mu\}$
+\end_inset
+
+ plane.
+ As before, the points are color-coded according to the legend in the figure,
+ and the points above the 0.7 threshold are enlarge to emphasize their contributi
+ons.
+ Clearly, comparing Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqCorrJetGluon"
+
+\end_inset
+
+-b) to Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqCorrTopGluon"
+
+\end_inset
+
+-b) we see the jet data has many more points with significant correlation
+ covering a much larger region of the 
+\begin_inset Formula $\{x,\mu\}$
+\end_inset
+
+ plane.
+ 
+\end_layout
+
+\begin_layout Standard
+Turning to the sensitivity measurements, we see in Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqSensJetGluon"
+
+\end_inset
+
+-a) a histogram of the sensitivities for all 538 jet data points, and we
+ have marked an arbitrary threshold at 1.0; there are XXX data points in
+ this region.
+ By comparison, for the top production cross section we had a total of 35
+ points with 1 above the 1.0 cut.
+ 
+\end_layout
+
+\begin_layout Standard
+In Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqSensJetGluon"
+
+\end_inset
+
+-b) we display the absolute value of the sensitivty in the 
+\begin_inset Formula $\{x,\mu\}$
+\end_inset
+
+ plane; as in Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xqSensTopGluon"
+
+\end_inset
+
+-b) the points above the 0.25 threshold are enlarged to emphasize their contribut
+ions.
+ As with the correlations, comparing the top production to the jet cross
+ section data we see the jet data has many more points with significant
+ correlation covering a much larger region of the 
+\begin_inset Formula $\{x,\mu\}$
+\end_inset
+
+ plane.
+ 
+\end_layout
+
+\begin_layout Standard
+In this example, the combination of the correlation and sensitivity plots
+ provides us a distinct picture of which data impacts the gluon PDF, and
+ what the relevant 
+\begin_inset Formula $\{x,\mu\}$
+\end_inset
+
+ kinematic regions are involved.
+ This provides us with a set of incisive tools to answer detailed questions
+ about the PDFs.
+ 
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide true
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/corr_hist+1_f0_ttbar.pdf
+	lyxscale 40
+	width 40text%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/corr_xQ+1_f0_ttbar.pdf
+	lyxscale 40
+	width 55text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The xQ-plot and histogram of sensitivities between top quark processes and
+ gluon.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:xqCorrTopGluon"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide true
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/sens_hist+1_f0_ttbar.pdf
+	lyxscale 40
+	width 40text%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/sens_xQ+1_f0_ttbar.pdf
+	lyxscale 40
+	width 55text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The xQ-plot and histogram of sensitivities between top quark processes and
+ gluon.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:xqSensTopGluon"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide true
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/corr_hist+1_f0_jetnewdata.pdf
+	lyxscale 40
+	width 40text%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/corr_xQ+1_f0_jetnewdata.pdf
+	lyxscale 40
+	width 55text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The xQ-plot and histogram of correlations between jet processes and gluon.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:xqCorrJetGluon"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide true
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/sens_hist+1_f0_jetnewdata.pdf
+	lyxscale 50
+	width 40text%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/sens_xQ+1_f0_jetnewdata.pdf
+	lyxscale 40
+	width 55text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The xQ-plot and histogram of sensitivities between jet processes and gluon.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:xqSensJetGluon"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+LHeC Predictions 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusions
+\end_layout
+
+\begin_layout Standard
+This work was supported in part by the U.S.
+ Department of Energy under Grant No.
+ DE-SC0010129 and by the National Natural Science Foundation of China under
+ the Grant No.
+ 11465018.
+ The work of J.G.
+ is sponsored by Shanghai Pujiang Program.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "sensitivity"
+options "apsrev"
+
+\end_inset
+
+
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+
+\color red
+This is stolen from Pavel's paper.
+ We'll take what we need and refer to his paper for the rest.
+\end_layout
+
+\begin_layout Section
+Correlations due to PDFs
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Correlation-analysis"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In many applications, it is instructive to study the correlations between
+ the PDFs and the experimental observables.
+ We review the relevant theoretical framework as presented in Ref.***.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be a variable that depends on the PDFs.
+ We consider 
+\begin_inset Formula $X$
+\end_inset
+
+ as a function of the parameters 
+\begin_inset Formula $\{a_{i}\}$
+\end_inset
+
+ that define the PDFs at the initial scale 
+\begin_inset Formula $\mu_{0}$
+\end_inset
+
+.
+ Thus we have 
+\begin_inset Formula $X(\vec{a})$
+\end_inset
+
+, where 
+\begin_inset Formula $\vec{a}$
+\end_inset
+
+ forms a vector in an 
+\begin_inset Formula $N$
+\end_inset
+
+-dimensional PDF parameter space, with 
+\begin_inset Formula $N$
+\end_inset
+
+ being the number of free parameters in the global analysis that determines
+ these PDFs.
+ In the Hessian formalism for the uncertainty analysis developed in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pumplin:2001ct"
+
+\end_inset
+
+ and used in all of our recent work, this parton parameter space is spanned
+ by a set of orthonormal eigenvectors obtained by a self-consistent iterative
+ procedure 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tung:2006tb,Pumplin:2002vw"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $\vec{a}_{0}$
+\end_inset
+
+ represents the best fit obtained with a given set of theoretical and experiment
+al inputs, the variation of 
+\begin_inset Formula $X(\vec{a})$
+\end_inset
+
+ for parton parameters 
+\begin_inset Formula $\vec{a}$
+\end_inset
+
+ in the neighborhood of 
+\begin_inset Formula $\vec{a}_{0}$
+\end_inset
+
+ is given, within the Hessian approximation, by a linear formula
+\begin_inset Formula 
+\begin{equation}
+\Delta X(\vec{a})=X(\vec{a})-X(\vec{a}_{0})=\vec{\nabla}X|_{\vec{a}_{0}}\cdot\Delta\vec{a},
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\vec{\nabla}X$
+\end_inset
+
+ is the gradient of 
+\begin_inset Formula $X(\vec{a}),$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta\vec{a}=\vec{a}-\vec{a}_{0}$
+\end_inset
+
+.
+ As explained in detail in Refs.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pumplin:2001ct,Pumplin:2002vw,Tung:2006tb"
+
+\end_inset
+
+, the uncertainty range of the PDFs in our global analysis is characterized
+ by a tolerance factor 
+\begin_inset Formula $T$
+\end_inset
+
+, equal to the radius of a hypersphere spanned by maximal allowed displacements
+ 
+\begin_inset Formula $\Delta\vec{a}$
+\end_inset
+
+ in the orthonormal PDF parameter representation.
+ 
+\begin_inset Formula $T$
+\end_inset
+
+ is determined by the criterion that all PDFs within this tolerance hypersphere
+ should be consistent with the input experimental data sets within roughly
+ 90% c.l.
+ The detailed discussions and the specific iterative procedure used to construct
+ the eigenvectors can be found in Refs.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pumplin:2001ct,Pumplin:2002vw,Tung:2006tb"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In practice, the results of our uncertainty analysis are characterized by
+ 
+\begin_inset Formula $2N$
+\end_inset
+
+ sets of published eigenvector PDF sets along with the central fit.
+ We have 
+\begin_inset Formula $2$
+\end_inset
+
+ PDF sets for each of the 
+\begin_inset Formula $N$
+\end_inset
+
+ eigenvectors, along the 
+\begin_inset Formula $(\pm)$
+\end_inset
+
+ directions respectively, at the distance 
+\begin_inset Formula $|\Delta\vec{a}|=T$
+\end_inset
+
+.
+ The 
+\begin_inset Formula $i$
+\end_inset
+
+-th component of the gradient vector 
+\begin_inset Formula $\vec{\nabla}X$
+\end_inset
+
+ may be approximated by
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial X}{\partial a_{i}}\equiv\partial_{i}X=\frac{1}{2}(X_{i}^{(+)}-X_{i}^{(-)}),\label{dXdzi}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $X_{i}^{(+)}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{i}^{(-)}$
+\end_inset
+
+ are the values of 
+\begin_inset Formula $X$
+\end_inset
+
+ computed from the two sets of PDFs along the (
+\begin_inset Formula $\pm$
+\end_inset
+
+) direction of the 
+\begin_inset Formula $i$
+\end_inset
+
+-th eigenvector.
+ The uncertainty of the quantity 
+\begin_inset Formula $X$
+\end_inset
+
+ due to its dependence on the PDFs is then defined as
+\begin_inset Formula 
+\begin{equation}
+\Delta X=\left\vert \vec{\nabla}X\right\vert =\frac{1}{2}\sqrt{\sum_{i=1}^{N}\left(X_{i}^{(+)}-X_{i}^{(-)}\right)^{2}},\label{masterDX}
+\end{equation}
+
+\end_inset
+
+where for simplicity we assume that the positive and negative errors on
+ 
+\begin_inset Formula $X$
+\end_inset
+
+ are the same.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+A more detailed equation for 
+\begin_inset Formula $\Delta X$
+\end_inset
+
+ accounts for differences between the positive and negative errors 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nadolsky:2001yg,Stump:2003yu"
+
+\end_inset
+
+.
+ It is used for 
+\begin_inset Formula $t\bar{t}$
+\end_inset
+
+ cross sections in Table
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:ttbarABC"
+
+\end_inset
+
+ and Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ttbarLHC"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/correlation_ellipses.eps
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dependence on the correlation ellipse formed in the 
+\begin_inset Formula $\delta X-\delta Y$
+\end_inset
+
+ plane on the value of 
+\begin_inset Formula $\cos\varphi.$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:CorrelationEllipsePhi"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We may extend the uncertainty analysis to define a 
+\emph on
+correlation
+\emph default
+ between the uncertainties of two variables, say 
+\begin_inset Formula $X(\vec{a})$
+\end_inset
+
+ and 
+\begin_inset Formula $Y(\vec{a}).$
+\end_inset
+
+ We consider the projection of the tolerance hypersphere onto a circle of
+ radius 1 in the plane of the gradients 
+\begin_inset Formula $\vec{\nabla}X$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{\nabla}Y$
+\end_inset
+
+ in the parton parameter space 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pumplin:2001ct,Nadolsky:2001yg"
+
+\end_inset
+
+.
+ The circle maps onto an ellipse in the 
+\begin_inset Formula $XY$
+\end_inset
+
+ plane.
+ This 
+\begin_inset Quotes eld
+\end_inset
+
+tolerance ellipse
+\begin_inset Quotes erd
+\end_inset
+
+ is described by Lissajous-style parametric equations,
+\begin_inset Formula 
+\begin{eqnarray}
+X & = & X_{0}+\Delta X\cos\theta,\label{ellipse1}\\
+Y & = & Y_{0}+\Delta Y\cos(\theta+\varphi),\label{ellipse2}
+\end{eqnarray}
+
+\end_inset
+
+where the parameter 
+\begin_inset Formula $\theta$
+\end_inset
+
+ varies between 0 and 
+\begin_inset Formula $2\pi$
+\end_inset
+
+, 
+\begin_inset Formula $X_{0}\equiv X(\vec{a}_{0}),$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{0}\equiv Y(\vec{a}_{0})$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\Delta X$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta Y$
+\end_inset
+
+ are the maximal variations 
+\begin_inset Formula $\delta X\equiv X-X_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta Y\equiv Y-Y_{0}$
+\end_inset
+
+ evaluated according to Eq.
+\begin_inset space ~
+\end_inset
+
+(
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "masterDX"
+
+\end_inset
+
+), and 
+\begin_inset Formula $\varphi$
+\end_inset
+
+ is the angle between 
+\begin_inset Formula $\vec{\nabla}X$
+\end_inset
+
+ and 
+\begin_inset Formula $\vec{\nabla}Y$
+\end_inset
+
+ in the 
+\begin_inset Formula $\{a_{i}\}$
+\end_inset
+
+ space, with
+\begin_inset Formula 
+\begin{equation}
+\cos\varphi=\frac{\vec{\nabla}X\cdot\vec{\nabla}Y}{\Delta X\Delta Y}=\frac{1}{4\Delta X\,\Delta Y}\sum_{i=1}^{N}\left(X_{i}^{(+)}-X_{i}^{(-)}\right)\left(Y_{i}^{(+)}-Y_{i}^{(-)}\right).\label{cosphi}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+The quantity 
+\begin_inset Formula $\cos\varphi$
+\end_inset
+
+ characterizes whether the PDF degrees of freedom of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ are correlated (
+\begin_inset Formula $\cos\varphi\approx1$
+\end_inset
+
+), anti-correlated (
+\begin_inset Formula $\cos\varphi\approx-1$
+\end_inset
+
+), or uncorrelated (
+\begin_inset Formula $\cos\varphi\approx0$
+\end_inset
+
+).
+ If units for 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ are rescaled so that 
+\begin_inset Formula $\Delta X=\Delta Y$
+\end_inset
+
+ (e.g., 
+\begin_inset Formula $\Delta X=\Delta Y=1$
+\end_inset
+
+), the semimajor axis of the tolerance ellipse is directed at an angle 
+\begin_inset Formula $\pi/4$
+\end_inset
+
+ (or 
+\begin_inset Formula $3\pi/4)$
+\end_inset
+
+ with respect to the 
+\begin_inset Formula $\Delta X$
+\end_inset
+
+ axis for 
+\begin_inset Formula $\cos\varphi>0$
+\end_inset
+
+ (or 
+\begin_inset Formula $\cos\varphi<0$
+\end_inset
+
+).
+ In these units, the ellipse reduces to a line for 
+\begin_inset Formula $\cos\varphi=\pm1$
+\end_inset
+
+ and becomes a circle for 
+\begin_inset Formula $\cos\varphi=0$
+\end_inset
+
+, as illustrated by Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:CorrelationEllipsePhi"
+
+\end_inset
+
+.
+ These properties can be found by diagonalizing the equation for the correlation
+ ellipse,
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+Its semiminor and semimajor axes (normalized to 
+\begin_inset Formula $\Delta X=\Delta Y$
+\end_inset
+
+) are
+\begin_inset Formula 
+\begin{eqnarray}
+\{a_{minor},a_{major}\} & = & \frac{\sin\varphi}{\sqrt{1\pm\cos\varphi}}.\label{ellipse4}
+\end{eqnarray}
+
+\end_inset
+
+The eccentricity 
+\begin_inset Formula $\epsilon\equiv\sqrt{1-(a_{minor}/a_{major})^{2}}$
+\end_inset
+
+ is therefore approximately equal to 
+\begin_inset Formula $\sqrt{\left|\cos\varphi\right|}$
+\end_inset
+
+ as 
+\begin_inset Formula $\left|\cos\varphi\right|\rightarrow1$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\left(\frac{\delta X}{\Delta X}\right)^{2}+\left(\frac{\delta Y}{\Delta Y}\right)^{2}-2\left(\frac{\delta X}{\Delta X}\right)\left(\frac{\delta Y}{\Delta Y}\right)\cos\varphi=\sin^{2}\varphi.\label{ellipse3}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A magnitude of 
+\begin_inset Formula $|\cos\varphi|$
+\end_inset
+
+ close to unity suggests that a precise measurement of 
+\begin_inset Formula $X$
+\end_inset
+
+ (constraining 
+\begin_inset Formula $\delta X$
+\end_inset
+
+ to be along the dashed line in Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:CorrelationEllipsePhi"
+
+\end_inset
+
+) is likely to constrain tangibly the uncertainty 
+\begin_inset Formula $\delta Y$
+\end_inset
+
+ in 
+\begin_inset Formula $Y$
+\end_inset
+
+, as the value of 
+\begin_inset Formula $Y$
+\end_inset
+
+ shall lie within the needle-shaped error ellipse.
+ Conversely, 
+\begin_inset Formula $\cos\varphi\approx0$
+\end_inset
+
+ implies that the measurement of 
+\begin_inset Formula $X$
+\end_inset
+
+ is not likely to constrain 
+\begin_inset Formula $\delta Y$
+\end_inset
+
+ strongly.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The allowed range of 
+\begin_inset Formula $\delta Y/\Delta Y$
+\end_inset
+
+ for a given 
+\begin_inset Formula $\delta\equiv\delta X/\Delta X$
+\end_inset
+
+ is 
+\begin_inset Formula $r_{Y}^{(-)}\leq\delta Y/\Delta Y\leq r_{Y}^{(+)},$
+\end_inset
+
+ where 
+\begin_inset Formula $r_{Y}^{(\pm)}\equiv\delta\cos\varphi\pm\sqrt{1-\delta^{2}}\sin\varphi.$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The parameters of the correlation ellipse are sufficient to deduce, under
+ conventional approximations, a Gaussian probability distribution 
+\begin_inset Formula $P(X,Y|\mbox{CTEQ6.6})$
+\end_inset
+
+ for finding certain values of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ based on the pre-LHC data sets included in the CTEQ6.6 analysis.
+ If the LHC measures 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ nearly independently of the PDF model, a new confidence region for 
+\emph on
+
+\begin_inset Formula $X$
+\end_inset
+
+
+\emph default
+ and 
+\emph on
+
+\begin_inset Formula $Y$
+\end_inset
+
+
+\emph default
+ satisfying both the CTEQ6.6 and LHC constraints can be determined by combining
+ the prior probability 
+\begin_inset Formula $P(X,Y|\mbox{CTEQ6.6})$
+\end_inset
+
+ with the new probability distribution 
+\begin_inset Formula $P(X,Y|\mbox{LHC})$
+\end_inset
+
+ provided by the LHC measurement
+\emph on
+.
+
+\emph default
+ For this purpose, it suffices to construct a probability distribution
+\begin_inset Formula 
+\begin{align}
+P(X,Y|\mbox{CTEQ6.6+LHC}) & =\nonumber \\
+=P(X,Y|\mbox{CTEQ6.6})P(X,Y|\mbox{LHC})
+\end{align}
+
+\end_inset
+
+which establishes the combined CTEQ6.6+LHC confidence region without repeating
+ the global fit.
+\end_layout
+
+\begin_layout Standard
+The values of 
+\begin_inset Formula $\Delta X,$
+\end_inset
+
+ 
+\begin_inset Formula $\Delta Y,$
+\end_inset
+
+ and 
+\begin_inset Formula $\cos\varphi$
+\end_inset
+
+ are also sufficient to estimate the PDF uncertainty of any function 
+\begin_inset Formula $f(X,Y)$
+\end_inset
+
+ of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ by relating the gradient of 
+\begin_inset Formula $f(X,Y)$
+\end_inset
+
+ to 
+\begin_inset Formula $\partial_{X}f\equiv\partial f/\partial X$
+\end_inset
+
+ and 
+\begin_inset Formula $\partial_{Y}f\equiv\partial f/\partial Y$
+\end_inset
+
+ via the chain rule:
+\begin_inset Formula 
+\begin{equation}
+\Delta f=\left|\vec{\nabla}f\right|=\sqrt{\left(\Delta X\ \partial_{X}f\ \right)^{2}+2\Delta X\ \Delta Y\ \cos\varphi\ \partial_{X}f\ \partial_{Y}f+\left(\Delta Y\ \partial_{Y}f\right)^{2}}.\label{df}
+\end{equation}
+
+\end_inset
+
+Of particular interest is the case of a rational function 
+\begin_inset Formula $f(X,Y)=X^{m}/Y^{n},$
+\end_inset
+
+ pertinent to computations of various cross section ratios, cross section
+ asymmetries, and statistical significance for finding signal events over
+ background processes 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nadolsky:2001yg"
+
+\end_inset
+
+.
+ For rational functions Eq.
+\begin_inset space ~
+\end_inset
+
+(
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "df"
+
+\end_inset
+
+) takes the form
+\begin_inset Formula 
+\begin{equation}
+\frac{\Delta f}{f_{0}}=\sqrt{\left(m\frac{\Delta X}{X_{0}}\ \right)^{2}-2mn\frac{\Delta X}{X_{0}}\ \frac{\Delta Y}{Y_{0}}\ \cos\varphi\ +\left(n\frac{\Delta Y\ }{Y_{0}}\right)^{2}}.\label{dfrat}
+\end{equation}
+
+\end_inset
+
+For example, consider a simple ratio, 
+\begin_inset Formula $f=X/Y$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $\Delta f/f_{0}$
+\end_inset
+
+ is suppressed (
+\begin_inset Formula $\Delta f/f_{0}\approx\left|\Delta X/X_{0}-\Delta Y/Y_{0}\right|$
+\end_inset
+
+) if 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ are strongly correlated, and it is enhanced (
+\begin_inset Formula $\Delta f/f_{0}\approx\Delta X/X_{0}+\Delta Y/Y_{0}$
+\end_inset
+
+) if 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ are strongly anticorrelated.
+\end_layout
+
+\begin_layout Standard
+As would be true for any estimate provided by the Hessian method, the correlatio
+n angle is inherently approximate.
+ Eq.
+\begin_inset space ~
+\end_inset
+
+(
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cosphi"
+
+\end_inset
+
+) is derived under a number of simplifying assumptions, notably in the quadratic
+ approximation for the 
+\begin_inset Formula $\chi^{2}$
+\end_inset
+
+ function within the tolerance hypersphere, and by using a symmetric finite-diff
+erence formula (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "dXdzi"
+
+\end_inset
+
+) for 
+\begin_inset Formula $\{\partial_{i}X\}$
+\end_inset
+
+ that may fail if 
+\begin_inset Formula $X$
+\end_inset
+
+ is not monotonic.
+ With these limitations in mind, we find the correlation angle to be a convenien
+t measure of interdependence between quantities of diverse nature, such
+ as physical cross sections and parton distributions themselves.
+ For collider applications, the correlations between measured cross sections
+ for crucial SM and beyond SM processes will be of primary interest, as
+ we shall illustrate in Sec.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:ImplicationsForColliders"
+
+\end_inset
+
+.
+ As a first example however, we shall present some representative results
+ on correlations between the PDFs in the next section.
+ 
+\end_layout
+
+\end_body
+\end_document

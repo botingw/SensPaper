@@ -1,0 +1,8 @@
+
+THIS WORKS
+
+svn checkout file:///users/botingw/svnRep/sens/trunk/paper .
+
+THIS DOES NOT WORK
+
+svn checkout svn+ssh://olness@curie.physics.smu.edu/users/botingw/svnRep/sens/trunk/paper .
