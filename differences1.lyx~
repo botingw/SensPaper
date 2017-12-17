@@ -105,11 +105,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tracking_changes true
-\output_changes true
+\tracking_changes false
+\output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -2031743745 "botingw"
 \end_header
 
 \begin_body
@@ -123,6 +124,7 @@ Bo Ting Wang
 \end_layout
 
 \begin_layout Author Email
+
 botingw@smu.edu
 \end_layout
 
@@ -140,6 +142,7 @@ Sean Doyle
 \end_layout
 
 \begin_layout Author Email
+
 seand@smu.edu
 \end_layout
 
@@ -160,6 +163,7 @@ School of Physics and Astronomy, INPAC,
 \end_layout
 
 \begin_layout Author Email
+
 jung49@sjtu.edu.cn
 \end_layout
 
@@ -177,10 +181,15 @@ Timothy Hobbs
 \end_layout
 
 \begin_layout Author Email
+
 olness@smu.edu
 \end_layout
 
 \begin_layout Affiliation
+
+\change_deleted -2031743745 1513530804
+ 
+\change_unchanged
 Department of Physics, Southern Methodist University,
 \begin_inset Newline newline
 \end_inset
@@ -194,10 +203,15 @@ Tie-Jiun Hou
 \end_layout
 
 \begin_layout Author Email
+
 tiejiun.hou@foxmail.com
 \end_layout
 
 \begin_layout Affiliation
+
+\change_deleted -2031743745 1513530804
+ 
+\change_unchanged
 School of Physics Science and Technology, Xinjiang University,
 \begin_inset Newline newline
 \end_inset
@@ -210,6 +224,7 @@ Pavel Nadolsky
 \end_layout
 
 \begin_layout Author Email
+
 nadolsky@smu.edu
 \end_layout
 
@@ -228,6 +243,7 @@ Fredrick I.
 \end_layout
 
 \begin_layout Author Email
+
 olness@smu.edu
 \end_layout
 
@@ -305,14 +321,45 @@ Statement of the Problem
 
 \begin_layout Standard
 Parton distribution functions (PDFs) are crucial for understanding the behavior
- of hadron collisions and exploring the Standard Model (SM).
+ of hadron collisions and 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+then
+\change_unchanged
+
+\strikeout default
+exploring the Standard Model (SM).
  PDFs describe the structure of hadrons, which affect the configurations
- of the final particles in collisions.
+ of the final particles in 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+the
+\change_unchanged
+
+\strikeout default
+collisions.
  Therefore, the magnitudes of physical observables in hadron collisions
  strongly depend on PDFs.
- Currently, the Large Hadron Collider (LHC) produces a lot of experimental
- data.
- Owing to the fact that uncertainties in measurements constantly decrease,
+ Currently, 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+T
+\change_unchanged
+
+\strikeout default
+the Large Hadron Collider (LHC) produces a lot of experimental data.
+ Ow
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+n
+\change_unchanged
+
+\strikeout default
+ing to the fact that uncertainties in measurements constantly decrease,
  reducing the PDF uncertainties of physical observables and using the higher
  order PDFs will make it easier to find the inconsistency between the SM
  and the data sets collected by the LHC and then discover new physics.
@@ -321,11 +368,23 @@ Parton distribution functions (PDFs) are crucial for understanding the behavior
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+However, i
+\change_unchanged
+
+\strikeout default
 Incorporating more experimental data points will substantially increase
  the time for fitting PDF sets, especially when we fit higher order PDF
  sets.
- From here we know that how to select data sets in global fits will become
- extremely important in the near future.
+ From here
+\change_deleted -2031743745 1513530804
+,
+\change_unchanged
+ we know that how to select data sets in global fits will become extremely
+ important in the near future.
  It is essential to know which data sets will effectively constrain the
  higher order PDFs for the global fits in the limited time of computation.
  In addition, because physical predictions are sensitive to respective flavors
@@ -352,7 +411,23 @@ in PDFs, we need to narrow down uncertainties of the specific regions of
 \begin_inset Formula $\{\xi,\mu\}$
 \end_inset
 
- (in the PDFs), where partonic 
+ (in the PDFs)
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+.
+\change_unchanged
+
+\strikeout default
+, 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+W
+\change_unchanged
+
+\strikeout default
+where partonic 
 \begin_inset Formula $\xi$
 \end_inset
 
@@ -381,8 +456,11 @@ methods
 
 \begin_deeper
 \begin_layout Standard
-Using the correlation between PDF uncertainties in two observables have
- been proposed to study constraints on PDFs and constraints on observables
+Using the correlation between PDF uncertainties in two observables ha
+\change_deleted -2031743745 1513530804
+s
+\change_unchanged
+ve been proposed to study constraints on PDFs and constraints on observables
  imposed by PDFs 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -428,8 +506,17 @@ key "Nadolsky:2008zw"
 \end_inset
 
 .
- How to identify the ranges specifying PDFs constrained by experimental
- data sets is yet be established.
+ 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+It is yet be established that how to know the ranges specifying PDFs constrained
+ by experimental data sets.
+\change_unchanged
+
+\strikeout default
+How to identify the ranges specifying PDFs constrained by experimental data
+ sets is yet be established.
 \end_layout
 
 \end_deeper
@@ -438,6 +525,14 @@ Objectives
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+Thus, e
+\change_unchanged
+
+\strikeout default
 Establishing a better understanding of the relationships between the strength
  of constraints on PDF and experimental data sets will be a significant
  and beneficial contribution to particle physics.
@@ -448,15 +543,39 @@ Methodology
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+I
+\change_unchanged
+
+\strikeout default
 We have developed and tested a systematic method to study the constraints
  on PDFs imposed by the experimental data sets.
- We will use established statistical observables to quantify the strength
+ 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+I
+\change_unchanged
+
+\strikeout default
+We will use established statistical observables to quantify the strength
  of these constraints.
 \end_layout
 
 \begin_layout Standard
-After that, we will introduce a statistical technique to visualize the regions
- of partonic momentum fractions 
+After that, 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+I
+\change_unchanged
+
+\strikeout default
+we will introduce a statistical technique to visualize the regions of partonic
+ momentum fractions 
 \begin_inset Formula $\xi$
 \end_inset
 
@@ -639,8 +758,11 @@ convert from
 \strikeout on
 To fit PDF sets, we first need to determine the input theoretical model
  and data sets.
- The model includes the selection of quark mass, coupling constants and
- the order considered in the correction of perturbation (i.e.
+ The model includes the selection of quark mass, coupling constants
+\change_deleted -2031743745 1513530804
+,
+\change_unchanged
+ and the order considered in the correction of perturbation (i.e.
  LO, NLO and etc).
  Then we determine the parametrization function form 
 \begin_inset Formula $f_{q}(\xi,Q_{0})=a_{0}\xi^{a_{1}}(1-\xi)^{a_{2}}F(a_{3},a_{4},......)$
@@ -688,7 +810,11 @@ To fit PDF sets, we first need to determine the input theoretical model
 \end_inset
 
  at the low factorization scale.
- we use 
+ 
+\change_deleted -2031743745 1513530804
+W
+\change_unchanged
+we use 
 \begin_inset Formula $\chi^{2}$
 \end_inset
 
@@ -798,7 +924,15 @@ The
 \begin_inset Formula $i$
 \end_inset
 
-, we can estimate the goodness of the fit of this point.
+, 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+W
+\change_unchanged
+
+\strikeout default
+we can estimate the goodness of the fit of this point.
  For data sets, the goodness of fits is the sum of all points 
 \begin_inset Formula $i$
 \end_inset
@@ -823,7 +957,15 @@ The
 \begin_inset Formula $\chi^{2}\leq N_{data}$
 \end_inset
 
-, the fit is better than expected.
+, 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+this
+\change_unchanged
+
+\strikeout default
+the fit is better than expected.
  If 
 \begin_inset Formula $\chi^{2}\ll N_{data}$
 \end_inset
@@ -891,7 +1033,11 @@ Where i
 \end_inset
 
  since the averages of the measurements are shifted from the real values.
- Here we provide criteria of good PDF fittings 
+ Here we provide criteria of good PDF fittings
+\change_deleted -2031743745 1513530804
+:
+\change_unchanged
+ 
 \end_layout
 
 \begin_layout Enumerate
@@ -906,7 +1052,17 @@ Where i
 \end_layout
 
 \begin_layout Enumerate
-If residuals of points 
+
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+i
+\strikeout default
+I
+\change_inserted -2031743745 1513530804
+i
+\change_unchanged
+f residuals of points 
 \begin_inset Formula $i$
 \end_inset
 
@@ -1004,8 +1160,23 @@ reference "fig:deltaR"
 
  is the comparison of two different fluctuations of theoretical values.
  Even though mean values of red crosses and blue crosses are the same, we
- can find the fluctuation of red crosses is more easily to be detected because
- it's effect on residual values is larger than the fluctuation of blue crosses.
+ can find the fluctuation of red crosses is 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+easier
+\change_unchanged
+
+\strikeout default
+more easily to be detected because 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+it's affection
+\change_unchanged
+
+\strikeout default
+it's effect on residual values is larger than the fluctuation of blue crosses.
  Fig.
  
 \begin_inset CommandInset ref
@@ -1020,8 +1191,16 @@ reference "fig:sensitivity"
 \end_inset
 
 .
- Although both red circles and blue circles are strongly correlated, red
- circles are more sensitive to 
+ Although both 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+of
+\change_unchanged
+
+\strikeout default
+red circles and blue circles are strongly correlated, red circles are more
+ sensitive to 
 \begin_inset Formula $f_{a}(\xi,\mu)$
 \end_inset
 
@@ -1030,8 +1209,16 @@ reference "fig:sensitivity"
 \end_inset
 
  fluctuation of red circles strongly affects values of residuals.
- Therefore, to understand the relationship between data sets and the constraints
- on PDFs imposed by these data sets, we should study whether 
+ Therefore, 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+To
+\change_unchanged
+
+\strikeout default
+to understand the relationship between data sets and the constraints on
+ PDFs imposed by these data sets, we should study whether 
 \begin_inset Formula $\chi^{2}$
 \end_inset
 
@@ -1050,11 +1237,11 @@ reference "fig:sensitivity"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figs/show_residue.png
+	filename ../../Documents/junk/paper_v01/figs/show_residue.png
 	lyxscale 50
 	width 40text%
 
@@ -1091,11 +1278,11 @@ name "fig:deltaR"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figs/fxQ_residual_relation_math.eps
+	filename ../../Documents/junk/paper_v01/figs/fxQ_residual_relation_math.eps
 	lyxscale 50
 	width 40text%
 
@@ -1139,12 +1326,36 @@ framework
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+I
+\change_unchanged
+
+\strikeout default
 We have developed and tested a systematic method to study the constraints
  on PDFs imposed by experimental data sets.
- We use established statistical observables to quantify the strength of
- these constraints.
- After that, we introduce a statistical technique to visualize the regions
- of partonic momentum fractions 
+ 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+I
+\change_unchanged
+
+\strikeout default
+We use established statistical observables to quantify the strength of these
+ constraints.
+ After that, 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+I
+\change_unchanged
+
+\strikeout default
+we introduce a statistical technique to visualize the regions of partonic
+ momentum fractions 
 \begin_inset Formula $\xi$
 \end_inset
 
@@ -1167,7 +1378,15 @@ key "Dulat:2015mca"
 \end_inset
 
  from various data sets.
- We include various types of experimental data sets in the analysis, including
+ 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+I
+\change_unchanged
+
+\strikeout default
+We include various types of experimental data sets in the analysis, including
  DIS processes, 
 \begin_inset Formula $Z\rightarrow l^{+}l^{-},d\sigma/dy(l)$
 \end_inset
@@ -1577,11 +1796,11 @@ can determine the strength of constraints on PDFs imposed by
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figs/correlation_ellipses.eps
+	filename ../../Documents/junk/paper_v01/figs/correlation_ellipses.eps
 	width 100col%
 
 \end_inset
@@ -1642,7 +1861,15 @@ Although we can know the predictivities between PDFs and measurements through
 \begin_inset Formula $Corr(f_{a}(\xi,\mu),r_{i})$
 \end_inset
 
- can not specify the strength of constraints on PDFs imposed by 
+ 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+could not
+\change_unchanged
+
+\strikeout default
+can not specify the strength of constraints on PDFs imposed by 
 \begin_inset Formula $r_{i}$
 \end_inset
 
@@ -2085,8 +2312,15 @@ objective
 \end_layout
 
 \begin_layout Standard
-In principle, we can use the correlation and sensitivity mentioned above
- to quantify 
+In principle, we can use the correlation 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+&
+\change_unchanged
+
+\strikeout default
+and sensitivity mentioned above to quantify 
 \begin_inset Formula $SOC(PDF)$
 \end_inset
 
@@ -2181,7 +2415,15 @@ capability
 \end_layout
 
 \begin_layout Standard
-It is possible to evaluate the the Max 
+It is possible to evaluate 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+those PDF ranges
+\change_unchanged
+
+\strikeout default
+the the Max 
 \begin_inset Formula $SOC(PDF)$
 \end_inset
 
@@ -2261,6 +2503,14 @@ It is possible to evaluate the the Max
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+F
+\change_unchanged
+
+\strikeout default
 The following are formulas (code part: selectExptxQv2 in 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2329,7 +2579,7 @@ JP (
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -2618,7 +2868,16 @@ table
 
 \begin_layout Standard
 Here we give physics of these formulas.
- In lepton pair production and (di)jet production, the rapidities of the
+ 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+DIS processes are just mentioned in the example.
+ 
+\change_unchanged
+
+\strikeout default
+In lepton pair production and (di)jet production, the rapidities of the
  final-state pairs are small for most events.
  If 
 \begin_inset Formula $y$
@@ -2706,7 +2965,26 @@ practical procedure (step by step)
 \end_layout
 
 \begin_layout Standard
-Finally, the steps of Same point method are as follows:
+Finally, 
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+we provide
+\change_unchanged
+
+\strikeout default
+ the steps of Same point method are as follows:
+\change_deleted -2031743745 1513530804
+
+\strikeout on
+.
+ Steps are as follows: 
+\change_inserted -2031743745 1513530804
+
+\strikeout default
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Enumerate
@@ -2812,6 +3090,12 @@ reference "fig:corr-sensitivity-281"
 \end_inset
 
 ) 
+\change_deleted -2031743745 1513530804
+
+\end_layout
+
+\begin_layout Standard
+
 \color red
 Conclusion?
 \end_layout
