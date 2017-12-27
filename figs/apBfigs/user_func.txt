@@ -1,0 +1,96 @@
+##A user-defined function called in correlations Corr(ri, Func) and sensitivity Sens(ri, Func)
+##A user can provide multiple customized functions as follows:
+##format:
+##Name: name 1  -- the function name to be shown in the plot label
+##!Function Begin: 
+##func1 command... (in Mathematica notations)
+##!Function End
+
+##Name: name 2  -- the function name to be shown in the plot label
+##!Function Begin: 
+##func2 command... (in Mathematica notations)
+##!Function End
+##......
+##......
+##......
+
+## Examples of the allowed formats. Comment out any unneeded formats using "#", otherwise the figures will be produced for
+## all of them
+
+## Total Higgs cross section, LHC 7 TeV, CT14HERA2NNLO
+Name: sig(H0), 7 TeV
+
+!Function Begin:  
+{14.5989, 14.5951, 14.6151, 14.5008, 14.6602, 14.7631, 14.4664, 14.6992, 14.3996, 14.7171, 14.5393, 14.6322, 14.5672, 14.8007, 14.3577, 14.7272, 14.4667, 14.6612, 14.5472, 14.5432, 14.6409, 14.4376, 14.7263, 14.5917, 14.5965, 14.7001, 14.4669, 14.5329, 14.6616, 14.5873, 14.604, 14.589, 14.6095, 14.5498, 14.6351, 14.6282, 14.5547, 14.6343, 14.5766, 14.623, 14.5751, 14.6106, 14.5667, 14.5982, 14.5893, 14.6385, 14.5676, 14.4672, 14.6291, 14.5933, 14.6025, 14.444, 14.5549, 14.5728, 14.6264, 14.4848, 14.6715}
+!Function End
+
+## Total Higgs cross section, LHC 8 TeV, CT14HERA2NNLO
+Name: sig(H0), 8 TeV
+
+!Function Begin: 
+{18.5991, 18.5973, 18.6252, 18.4938, 18.6266, 18.8127, 18.4267, 18.7653, 18.3527, 18.7392, 18.5313, 18.6483, 18.5535, 18.8465, 18.3019, 18.7603, 18.4332, 18.6785, 18.5348, 18.5235, 18.6559, 18.4229, 18.7392, 18.5611, 18.6325, 18.704, 18.4582, 18.5006, 18.6937, 18.5792, 18.6084, 18.586, 18.6135, 18.5561, 18.626, 18.6483, 18.526, 18.6578, 18.5635, 18.6158, 18.573, 18.6296, 18.5734, 18.6076, 18.5661, 18.6567, 18.5527, 18.4307, 18.6322, 18.5852, 18.6036, 18.36, 18.5264, 18.5558, 18.6298, 18.4688, 18.6798}
+!Function End
+
+## Total Higgs cross section, LHC 14 TeV, CT14HERA2NNLO
+
+Name: sig(H0), 14 TeV
+!Function Begin: 
+{47.9862, 47.9998, 48.0956, 47.8872, 47.6446, 48.5666, 47.5261, 48.6767, 47.5057, 48.2544, 47.881, 48.1587, 47.8374, 48.5416, 47.3078, 48.3783, 47.5824, 48.2034, 47.8231, 47.7787, 48.1378, 47.7925, 48.1516, 47.6499, 48.3777, 48.0289, 47.8888, 47.6182, 48.3441, 47.8954, 48.031, 47.9534, 48.0254, 48.0483, 47.8865, 48.203, 47.6702, 48.2421, 47.8406, 47.9325, 47.9446, 48.183, 48.0664, 48.0743, 47.7522, 48.1829, 47.8246, 47.5916, 48.019, 47.8957, 48.0071, 47.0824, 47.6624, 47.8053, 48.025, 47.8236, 48.0402}
+
+!Function End
+
+## Total strangeness, point-by-point
+
+Name: s+(x,mu)
+!Function Begin: 
+FxQ[is]+FxQ[isbar]
+!Function End
+
+## Valence u, point-by-point
+
+Name: u_val(x,mu)
+!Function Begin: 
+FxQ[iu]-FxQ[iubar]
+!Function End
+
+## Valence d, point-by-point
+
+Name: d_val(x,mu)
+!Function Begin: 
+FxQ[id]-FxQ[idbar]
+!Function End
+
+## dbar/ubar, point-by-point
+
+Name: db/ub(x,mu)
+!Function Begin: 
+#FxQ[idbar]/Map[If[#!=0.0,#,10.0^-10]&,FxQ[iubar],{-1}]
+FxQ[idbar]/FxQ[iubar]
+!Function End
+
+## d/u, point-by-point
+
+Name: d/u(x,mu)
+!Function Begin: 
+#FxQ[id]/Map[If[#!=0.0,#,10.0^-10]&,FxQ[iu],{-1}]
+FxQ[id]/FxQ[iu]
+!Function End
+
+## g/(ubar+dbar+sbar), point-by-point
+
+Name: g/(ub+db+sb)(x,mu)
+!Function Begin: 
+#FxQ[ig]/Map[If[#!=0.0,#,10.0^-10]&,(FxQ[iubar]+FxQ[idbar]+FxQ[isbar]),{-1}]
+FxQ[ig]/(FxQ[iubar]+FxQ[idbar]+FxQ[isbar])
+!Function End
+
+## g(0.01,mH), CT14HERA2NNLO
+
+Name: g(0.01,mH)
+!Function Begin: 
+{804.173, 804.77, 805.609, 803.488, 797.76, 810.405, 798.529, 818.054, 793.026, 806.536, 803.427, 806.828, 801.918, 808.475, 798.775, 807.813, 800.597, 804.986, 803.757, 800.428, 807.065, 803.867, 804.532, 798.261, 810.981, 804.577, 802.961, 799.067, 809.082, 802.546, 804.966, 803.561, 804.928, 805.164, 802.577, 807.48, 799.354, 808.509, 801.674, 801.426, 804.985, 808.636, 804.102, 806.608, 799.033, 807.515, 801.36, 797.072, 805.316, 803.227, 803.656, 788.676, 800.549, 801.114, 804.884, 801.367, 806.575}
+!Function End
+
+
+
+
