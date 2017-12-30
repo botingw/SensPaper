@@ -3346,7 +3346,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename figs/corrdr_hist+1_f0_samept.pdf
+	filename figs/apBfigs/Allexpt_corrdr_hist+1_f0_samept.pdf
 	width 43text%
 	clip
 
@@ -3354,7 +3354,7 @@ status open
 
  
 \begin_inset Graphics
-	filename figs/corrdr_xQ+1_f0_samept.pdf
+	filename figs/apBfigs/Allexpt_corrdr_xQ+1_f0_samept.pdf
 	width 49.3text%
 	clip
 
@@ -9808,7 +9808,11 @@ H1
 \begin_inset Formula $\sigma_{r}^{b}$
 \end_inset
 
- 
+ (
+\begin_inset Formula $57.4\mbox{ pb}^{-1}$
+\end_inset
+
+) 
 \end_layout
 
 \end_inset
@@ -9880,7 +9884,11 @@ yes
 \begin_inset Text
 
 \begin_layout Plain Layout
-Combined HERA charm production 
+Combined HERA charm production (
+\begin_inset Formula $1504\mbox{ pb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -9945,7 +9953,11 @@ yes
 \begin_inset Text
 
 \begin_layout Plain Layout
-HERA1+2 Combined NC and CC DIS 
+HERA1+2 Combined NC and CC DIS (
+\begin_inset Formula $1\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -10014,7 +10026,11 @@ H1
 \begin_inset Formula $F_{L}$
 \end_inset
 
- 
+ (
+\begin_inset Formula $121.6\mbox{ pb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -10412,7 +10428,11 @@ CDF Run-1
 \begin_inset Formula $A_{e}(\eta^{e})$
 \end_inset
 
- 
+ (
+\begin_inset Formula $110\mbox{ pb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -10481,7 +10501,11 @@ CDF Run-2
 \begin_inset Formula $A_{e}(\eta^{e})$
 \end_inset
 
- 
+ (
+\begin_inset Formula $170\mbox{ pb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -10558,7 +10582,11 @@ D
 \begin_inset Formula $A_{\mu}(\eta^{\mu})$
 \end_inset
 
- 
+ (
+\begin_inset Formula $0.3\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -10631,7 +10659,11 @@ LHCb 7 TeV
 \begin_inset Formula $\eta$
 \end_inset
 
- Xsec 
+ Xsec (
+\begin_inset Formula $35\mbox{ pb}^{-1}$
+\end_inset
+
+) 
 \end_layout
 
 \end_inset
@@ -10704,7 +10736,11 @@ LHCb 7 TeV
 \begin_inset Formula $A_{\mu}(\eta^{\mu})$
 \end_inset
 
- 
+ (
+\begin_inset Formula $35\mbox{ pb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -10785,7 +10821,11 @@ D
 \begin_inset Formula $d\sigma/dy_{Z}$
 \end_inset
 
- 
+ (
+\begin_inset Formula $0.4\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -10858,7 +10898,11 @@ CDF Run-2
 \begin_inset Formula $d\sigma/dy_{Z}$
 \end_inset
 
- 
+ (
+\begin_inset Formula $2.1\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -10927,7 +10971,11 @@ CMS 7 TeV
 \begin_inset Formula $A_{\mu}(\eta)$
 \end_inset
 
- 
+ (
+\begin_inset Formula $4.7\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -10996,7 +11044,11 @@ CMS 7 TeV
 \begin_inset Formula $A_{e}(\eta)$
 \end_inset
 
- 
+ (
+\begin_inset Formula $840\mbox{ pb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11069,7 +11121,11 @@ ATLAS 7 TeV
 \begin_inset Formula $A_{\mu}(\eta)$
 \end_inset
 
- 
+ (
+\begin_inset Formula $35\mbox{ pb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11146,7 +11202,11 @@ D
 \begin_inset Formula $A_{e}(\eta)$
 \end_inset
 
- 
+ (
+\begin_inset Formula $9.7\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11216,7 +11276,11 @@ CDF Run-2 incl.
 \begin_inset Formula $d\sigma/dp_{T}^{j}dy_{j}$
 \end_inset
 
-) 
+) (
+\begin_inset Formula $1.13\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11294,7 +11358,11 @@ D
 \begin_inset Formula $d\sigma/dp_{T}^{j}dy_{j}$
 \end_inset
 
-) (???) 
+) (???) (
+\begin_inset Formula $0.7\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11364,7 +11432,11 @@ ATLAS 7 TeV incl.
 \begin_inset Formula $d\sigma/dp_{T}^{j}dy_{j}$
 \end_inset
 
-) 
+) (
+\begin_inset Formula $35\mbox{ pb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11434,7 +11506,11 @@ CMS 7 TeV incl.
 \begin_inset Formula $d\sigma/dp_{T}^{j}dy_{j}$
 \end_inset
 
-) 
+) (
+\begin_inset Formula $5\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11558,7 +11634,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="17" columns="6">
+<lyxtabular version="3" rows="21" columns="6">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
@@ -11654,7 +11730,11 @@ LHCb 7 TeV Z/W muon forward-
 \begin_inset Formula $\eta$
 \end_inset
 
- Xsec 
+ Xsec (
+\begin_inset Formula $1.0\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11727,7 +11807,11 @@ LHCb 8 TeV Z electron forward-
 \begin_inset Formula $d\sigma/dy_{Z}$
 \end_inset
 
- 
+ (
+\begin_inset Formula $2.0\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11796,7 +11880,11 @@ ATLAS 7 TeV
 \begin_inset Formula $d\sigma/dp_{T}^{Z}$
 \end_inset
 
- 
+ (
+\begin_inset Formula $4.7\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11865,7 +11953,11 @@ CMS 8 TeV W muon, Xsec,
 \begin_inset Formula $A_{\mu}(\eta^{\mu})$
 \end_inset
 
- 
+ (
+\begin_inset Formula $18.8\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -11934,7 +12026,11 @@ LHCb 8 TeV W/Z muon, Xsec,
 \begin_inset Formula $A_{\mu}(\eta^{\mu})$
 \end_inset
 
- 
+ (
+\begin_inset Formula $2.0\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12003,7 +12099,11 @@ ATLAS 8 TeV Z (
 \begin_inset Formula $d^{2}\sigma/d|y|_{ll}dm_{ll}$
 \end_inset
 
-) 
+) (
+\begin_inset Formula $20.3\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12072,7 +12172,11 @@ ATLAS 8 TeV (
 \begin_inset Formula $d^{2}\sigma/dp_{T}^{Z}dm_{ll}$
 \end_inset
 
-) 
+) (
+\begin_inset Formula $20.3\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12141,7 +12245,11 @@ CMS 8 TeV (
 \begin_inset Formula $d^{2}\sigma/dp_{T}^{Z}dy_{Z}$
 \end_inset
 
-) 
+) (
+\begin_inset Formula $19.7\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12210,7 +12318,11 @@ CMS 8 TeV (
 \begin_inset Formula $d\sigma/dp_{T}^{W/Z}$
 \end_inset
 
-) 
+) (
+\begin_inset Formula $18.4\mbox{ pb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12280,7 +12392,11 @@ CMS 7 TeV incl.
 \begin_inset Formula $d\sigma/dp_{T}^{j}dy_{j}$
 \end_inset
 
-) 
+) (
+\begin_inset Formula $5\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12350,7 +12466,11 @@ ATLAS 7TeV incl.
 \begin_inset Formula $d\sigma/dp_{T}^{j}dy_{j}$
 \end_inset
 
-) 
+) (
+\begin_inset Formula $4.5\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12420,7 +12540,11 @@ CMS 8TeV incl.
 \begin_inset Formula $d\sigma/dp_{T}^{j}dy_{j}$
 \end_inset
 
-) 
+) (
+\begin_inset Formula $19.7\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12489,7 +12613,11 @@ ATLAS 8 TeV
 \begin_inset Formula $t\overline{t}\:d\sigma/dp_{T}^{t}$
 \end_inset
 
-, pseudodata 
+, pseudodata (
+\begin_inset Formula $20.3\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12552,7 +12680,11 @@ ATLAS 8 TeV
 \begin_inset Formula $t\overline{t}\:d\sigma/dy_{<t/\overline{t}>}$
 \end_inset
 
-, pseudodata 
+, pseudodata (
+\begin_inset Formula $20.3\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12615,7 +12747,11 @@ ATLAS 8 TeV
 \begin_inset Formula $t\overline{t}\:d\sigma/dm_{t\overline{t}}$
 \end_inset
 
-, psedodata 
+, psedodata (
+\begin_inset Formula $20.3\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -12661,7 +12797,7 @@ no
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12670,7 +12806,7 @@ no
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12678,12 +12814,16 @@ ATLAS 8 TeV
 \begin_inset Formula $t\overline{t}\:d\sigma/dy_{t\overline{t}}$
 \end_inset
 
-, psedodata 
+, psedodata (
+\begin_inset Formula $20.3\mbox{ fb}^{-1}$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+<cell alignment="right" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12692,7 +12832,7 @@ ATLAS 8 TeV
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12701,7 +12841,7 @@ ATLAS 8 TeV
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12710,7 +12850,7 @@ no
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12718,6 +12858,246 @@ no
 \end_inset
 
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+191
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LHeC CC 
+\begin_inset Formula $e^{-}p$
+\end_inset
+
+ pseudodata 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+93
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+???
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+192
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LHeC CC 
+\begin_inset Formula $e^{+}p$
+\end_inset
+
+ pseudodata 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+109
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+???
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+193
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LHeC NC 
+\begin_inset Formula $e^{-}p$
+\end_inset
+
+ pseudodata 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+128
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+???
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+194
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LHeC NC 
+\begin_inset Formula $e^{+}p$
+\end_inset
+
+ pseudodata 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+148
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+no
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+???
 \end_layout
 
 \end_inset
