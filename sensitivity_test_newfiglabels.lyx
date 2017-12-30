@@ -133,7 +133,6 @@ Bo Ting Wang
 \end_layout
 
 \begin_layout Author Email
-
 botingw@smu.edu
 \end_layout
 
@@ -151,7 +150,6 @@ Sean Doyle
 \end_layout
 
 \begin_layout Author Email
-
 seand@smu.edu
 \end_layout
 
@@ -172,7 +170,6 @@ School of Physics and Astronomy, INPAC,
 \end_layout
 
 \begin_layout Author Email
-
 jung49@sjtu.edu.cn
 \end_layout
 
@@ -198,7 +195,6 @@ Hobbs
 \end_layout
 
 \begin_layout Author Email
-
 tjhobbs@smu.edu
 \end_layout
 
@@ -216,7 +212,6 @@ Tie-Jiun Hou
 \end_layout
 
 \begin_layout Author Email
-
 tiejiun.hou@foxmail.com
 \end_layout
 
@@ -233,7 +228,6 @@ Pavel Nadolsky
 \end_layout
 
 \begin_layout Author Email
-
 nadolsky@smu.edu
 \end_layout
 
@@ -252,7 +246,6 @@ Fredrick I.
 \end_layout
 
 \begin_layout Author Email
-
 olness@smu.edu
 \end_layout
 
@@ -42704,7 +42697,21 @@ status collapsed
 
 \end_inset
 
-In Tables 6 and 7, we further tabulate the 
+In Tables 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab6"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab7"
+
+\end_inset
+
+, we further tabulate the 
 \begin_inset Formula $s_{f}$
 \end_inset
 
@@ -42736,7 +42743,7 @@ reference "tab7"
 
  illustrate the rank of the average sensitivity and the overall sensitivity
  for these processes.
- We find that even though the data points in jet processes and the 
+ We find that even though the data points in the jet processes and the 
 \begin_inset Formula $t\overline{t}$
 \end_inset
 
@@ -42769,7 +42776,7 @@ reference "fig:SensH14"
 \begin_inset Formula $p_{T}^{Z}$
 \end_inset
 
- distribution events is possibly due to the bad measuring.
+ distribution events is possibly due to the bad measurement.
  The ratio of the theoretical uncertainties to the experimental uncertainties
  in the 
 \begin_inset Formula $p_{T}^{Z}$

@@ -29089,7 +29089,7 @@ status open
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -35476,7 +35476,7 @@ status collapsed
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -41715,7 +41715,7 @@ status collapsed
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -42704,10 +42704,101 @@ status collapsed
 
 \end_inset
 
-To explore the sensitivity to Higgs production, we demonstrate the 
-\begin_inset Formula $x-\mu$
+In Tables 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab6"
+
 \end_inset
 
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab7"
+
+\end_inset
+
+, we further tabulate the 
+\begin_inset Formula $s_{f}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sum_{f}s_{f}$
+\end_inset
+
+ for the data sets in various types of processes.
+ ref[xxx], ..., [xxx] point out the measurements to the jet processes, the
+ 
+\begin_inset Formula $t\overline{t}$
+\end_inset
+
+ processes, and the 
+\begin_inset Formula $p_{T}^{Z}$
+\end_inset
+
+ distribution of the 
+\begin_inset Formula $Z$
+\end_inset
+
+ processes are capable of constraining the Higgs cross section.
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab7"
+
+\end_inset
+
+ illustrate the rank of the average sensitivity and the overall sensitivity
+ for these processes.
+ We find that even though the data points in the jet processes and the 
+\begin_inset Formula $t\overline{t}$
+\end_inset
+
+ processes are sensitive to the Higgs cross section, the 
+\begin_inset Formula $t\overline{t}$
+\end_inset
+
+ processes don't contribute as much the overall sensitivity as the jet processes
+ do.
+ The 
+\begin_inset Formula $2D-x-\mu$
+\end_inset
+
+ figures of the three types of processes in Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SensH14"
+
+\end_inset
+
+ also indicate the jet processes in the are more sensitive to the Higgs
+ cross section than the other two processes.
+ We can attribute it to the small number of points in 
+\begin_inset Formula $t\overline{t}$
+\end_inset
+
+ processes compared with the jet processes.
+ The ignorable sensitivity imposed by the 
+\begin_inset Formula $p_{T}^{Z}$
+\end_inset
+
+ distribution events is possibly due to the bad measuring.
+ The ratio of the theoretical uncertainties to the experimental uncertainties
+ in the 
+\begin_inset Formula $p_{T}^{Z}$
+\end_inset
+
+ distribution events are mostly smaller than 1 (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ZptRatioT/D"
+
+\end_inset
+
+), so these data points would not effectively improve the constraints on
+ PDFs and physical quantities.
  
 \begin_inset Float figure
 wide false
@@ -42933,6 +43024,14 @@ reference "tab:IDsOfProcessesType"
 \end_inset
 
  is the experimental uncertainty.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ZptRatioT/D"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
