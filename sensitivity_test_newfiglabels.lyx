@@ -12497,7 +12497,8 @@ ve jets, and
 \begin_inset Formula $t\bar{t}$
 \end_inset
 
- pairs that are not incorporated in the CT14HERA2NNLO fit.
+ pairs that are not incorporated in the CT14HERA2NNLO fit but are in the
+ sensitivity figure for CT14HERA2NNLO.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -12505,7 +12506,7 @@ name "tab:EXP_3"
 
 \end_inset
 
-
+ 
 \end_layout
 
 \end_inset

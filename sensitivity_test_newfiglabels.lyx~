@@ -8920,12 +8920,11 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="17" columns="6">
+<lyxtabular version="3" rows="17" columns="5">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
 <column alignment="right" valignment="top">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
@@ -8976,23 +8975,11 @@ Experimental data set
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-In CT14HERA2? 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\mathcal{L}$
-\end_inset
-
-
+In CT14HERA2? 
 \end_layout
 
 \end_inset
@@ -9045,20 +9032,11 @@ key "Benvenuti:1989rh"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No paper
+yes 
 \end_layout
 
 \end_inset
@@ -9111,20 +9089,11 @@ key "Benvenuti:1989fm"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No paper
+yes 
 \end_layout
 
 \end_inset
@@ -9177,20 +9146,11 @@ key "Arneodo:1996qe"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info
+yes 
 \end_layout
 
 \end_inset
@@ -9243,20 +9203,11 @@ key "Arneodo:1996qe"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info
+no 
 \end_layout
 
 \end_inset
@@ -9309,20 +9260,11 @@ key "Berge:1989hr"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info
+yes 
 \end_layout
 
 \end_inset
@@ -9375,20 +9317,11 @@ key "Berge:1989hr"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info
+yes 
 \end_layout
 
 \end_inset
@@ -9441,20 +9374,11 @@ key "Yang:2000ju"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info
+yes 
 \end_layout
 
 \end_inset
@@ -9507,20 +9431,11 @@ key "Seligman:1997mc"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info
+yes 
 \end_layout
 
 \end_inset
@@ -9573,20 +9488,11 @@ key "Mason:2006qa"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info?
+yes 
 \end_layout
 
 \end_inset
@@ -9639,20 +9545,11 @@ key "Mason:2006qa"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info?
+yes 
 \end_layout
 
 \end_inset
@@ -9705,20 +9602,11 @@ key "Goncharov:2001qe"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info
+yes 
 \end_layout
 
 \end_inset
@@ -9771,20 +9659,11 @@ key "Goncharov:2001qe"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info
+yes 
 \end_layout
 
 \end_inset
@@ -9848,23 +9727,11 @@ key "Aktas:2005iw"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $57.4\mbox{ pb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -9917,23 +9784,11 @@ key "Abramowicz:1900rp"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1504\mbox{ pb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -9986,23 +9841,11 @@ key "Abramowicz:2015mha"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1\mbox{ fb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -10059,23 +9902,11 @@ key "Collaboration:2010ry"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $121.6\mbox{ pb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -10138,12 +9969,11 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="19" columns="6">
+<lyxtabular version="3" rows="19" columns="5">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
 <column alignment="right" valignment="top">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
@@ -10194,23 +10024,11 @@ Experimental data set
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-In CT14HERA2? 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\mathcal{L}$
-\end_inset
-
-
+In CT14HERA2? 
 \end_layout
 
 \end_inset
@@ -10259,20 +10077,11 @@ key "Moreno:1990sf"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No paper
+yes 
 \end_layout
 
 \end_inset
@@ -10325,20 +10134,11 @@ key "Towell:2001nh"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info
+yes 
 \end_layout
 
 \end_inset
@@ -10391,20 +10191,11 @@ key "Webb:2003ps"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No info
+yes 
 \end_layout
 
 \end_inset
@@ -10461,23 +10252,11 @@ key "Abe:1996us"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $110\mbox{ pb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -10534,23 +10313,11 @@ key "Acosta:2005ud"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $170\mbox{ pb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -10615,23 +10382,11 @@ key "Abazov:2007pm"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $0.3\mbox{ fb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -10692,23 +10447,11 @@ key "Aaij:2012vn"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $35\mbox{ pb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -10769,23 +10512,11 @@ key "Aaij:2012vn"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $35\mbox{ pb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -10854,23 +10585,11 @@ key "Abazov:2006gs"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $0.4\mbox{ fb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -10931,23 +10650,11 @@ key "Aaltonen:2010zza"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $2.1\mbox{ fb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -11004,23 +10711,11 @@ key "Chatrchyan:2013mza"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $4.7\mbox{ fb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -11077,23 +10772,11 @@ key "Chatrchyan:2012xt"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $840\mbox{ pb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -11154,23 +10837,11 @@ key "Aad:2011dm"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $35\mbox{ pb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -11235,23 +10906,11 @@ key "D0:2014kma"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $9.7\mbox{ fb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -11309,23 +10968,11 @@ key "Aaltonen:2008eq"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1.13\mbox{ fb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -11391,23 +11038,11 @@ key "Abazov:2008ae"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $0.7\mbox{ fb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -11465,23 +11100,11 @@ key "Aad:2011fc"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $35\mbox{ pb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -11539,23 +11162,11 @@ key "Chatrchyan:2012bja"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-yes 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $5\mbox{ fb}^{-1}$
-\end_inset
-
-
+yes 
 \end_layout
 
 \end_inset
@@ -11634,12 +11245,11 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="21" columns="6">
+<lyxtabular version="3" rows="21" columns="5">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
 <column alignment="right" valignment="top">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
@@ -11690,23 +11300,11 @@ Experimental data set
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-In CT14HERA2? 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\mathcal{L}$
-\end_inset
-
-
+In CT14HERA2? 
 \end_layout
 
 \end_inset
@@ -11763,23 +11361,11 @@ key "Aaij:2015gna"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1.0\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -11840,23 +11426,11 @@ key "Aaij:2015vua"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $2.0\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -11913,23 +11487,11 @@ key "Aad:2014xaa"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $4.7\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -11986,23 +11548,11 @@ key "Khachatryan:2016pev"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $18.8\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12059,23 +11609,11 @@ key "Aaij:2015zlq"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $2.0\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12132,23 +11670,11 @@ key "Aad:2016zzw"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $20.3\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12205,23 +11731,11 @@ key "Aad:2015auj"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $20.3\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12278,23 +11792,11 @@ key "Khachatryan:2015oaa"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $19.7\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12351,23 +11853,11 @@ key "Khachatryan:2016nbe"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $18.4\mbox{ pb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12425,23 +11915,11 @@ key "Chatrchyan:2014gia"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $5\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12499,23 +11977,11 @@ key "Aad:2014vwa"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $4.5\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12573,23 +12039,11 @@ key "Khachatryan:2016mlc"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $19.7\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12640,23 +12094,11 @@ ATLAS 8 TeV
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $20.3\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12707,23 +12149,11 @@ ATLAS 8 TeV
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $20.3\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12774,23 +12204,11 @@ ATLAS 8 TeV
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $20.3\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12841,23 +12259,11 @@ ATLAS 8 TeV
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no 
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $20.3\mbox{ fb}^{-1}$
-\end_inset
-
-
+no 
 \end_layout
 
 \end_inset
@@ -12904,20 +12310,11 @@ LHeC CC
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-???
+no
 \end_layout
 
 \end_inset
@@ -12964,20 +12361,11 @@ LHeC CC
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-???
+no
 \end_layout
 
 \end_inset
@@ -13024,20 +12412,11 @@ LHeC NC
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-???
+no
 \end_layout
 
 \end_inset
@@ -13084,20 +12463,11 @@ LHeC NC
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-no
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-???
+no
 \end_layout
 
 \end_inset
@@ -13127,7 +12497,8 @@ ve jets, and
 \begin_inset Formula $t\bar{t}$
 \end_inset
 
- pairs that are not incorporated in the CT14HERA2NNLO fit.
+ pairs that are not incorporated in the CT14HERA2NNLO fit but are in the
+ sensitivity figure.
  
 \begin_inset CommandInset label
 LatexCommand label
@@ -13135,7 +12506,7 @@ name "tab:EXP_3"
 
 \end_inset
 
-
+ 
 \end_layout
 
 \end_inset
