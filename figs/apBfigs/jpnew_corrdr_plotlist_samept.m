@@ -1283,11 +1283,11 @@
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to \!\(\*OverscriptBox[\(d\), \
-\(_\)]\)(x,\[Mu]) |, CT14HERA2NNLOall", 24, GrayLevel[0]], 
-     FrameLabel -> {Style["x", 18, GrayLevel[0]], Style["\[Mu] [GeV]", 18, 
-        GrayLevel[0]]}, FrameTicksStyle -> GrayLevel[0], 
-     ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
+     PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for \
+\!\(\*OverscriptBox[\(d\), \(_\)]\)(x,\[Mu]), CT14HERA2NNLO", 24, 
+       GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
+       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
+      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
         -11.512925464970229, -9.210340371976182, -6.907755278982137, 
         -4.605170185988091, -2.3025850929940455}, {Log[10], Log[50], 
@@ -1331,10 +1331,11 @@
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to \!\(\*OverscriptBox[\(d\), \
-\(_\)]\)(x,\[Mu]) |, CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, 
-    {"Data Sets"}, {"\[FilledCircle]CMS7jtR7y6(542)", 
-     "\[FilledSquare]ATL7jtR6u(544)", "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
+  Grid[{{Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for \
+\!\(\*OverscriptBox[\(d\), \(_\)]\)(x,\[Mu]), CT14HERA2NNLO\n\n", 
+       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+    {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
+     "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
    ItemStyle -> Directive[FontSize -> 18, GrayLevel[0]], ItemSize -> 14, 
    Alignment -> Left], 
@@ -1397,13 +1398,13 @@
       {}}}, {{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, 
-    Frame -> True, Axes -> False, PlotLabel -> Style["| Sensitivity to \
-\!\(\*OverscriptBox[\(d\), \(_\)]\)(x,\[Mu]) |, CT14HERA2NNLOall", 24, 
+    Frame -> True, Axes -> False, PlotLabel -> 
+     Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for \
+\!\(\*OverscriptBox[\(d\), \(_\)]\)(x,\[Mu]), CT14HERA2NNLO", 24, 
       GrayLevel[0]], FrameLabel -> 
-     {Style[
-       "| Sensitivity to \!\(\*OverscriptBox[\(d\), \(_\)]\)(x,\[Mu]) |", 18, 
-       GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -2690,11 +2691,11 @@
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to \!\(\*OverscriptBox[\(u\), \
-\(_\)]\)(x,\[Mu]) |, CT14HERA2NNLOall", 24, GrayLevel[0]], 
-     FrameLabel -> {Style["x", 18, GrayLevel[0]], Style["\[Mu] [GeV]", 18, 
-        GrayLevel[0]]}, FrameTicksStyle -> GrayLevel[0], 
-     ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
+     PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for \
+\!\(\*OverscriptBox[\(u\), \(_\)]\)(x,\[Mu]), CT14HERA2NNLO", 24, 
+       GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
+       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
+      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
         -11.512925464970229, -9.210340371976182, -6.907755278982137, 
         -4.605170185988091, -2.3025850929940455}, {Log[10], Log[50], 
@@ -2738,10 +2739,11 @@
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to \!\(\*OverscriptBox[\(u\), \
-\(_\)]\)(x,\[Mu]) |, CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, 
-    {"Data Sets"}, {"\[FilledCircle]CMS7jtR7y6(542)", 
-     "\[FilledSquare]ATL7jtR6u(544)", "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
+  Grid[{{Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for \
+\!\(\*OverscriptBox[\(u\), \(_\)]\)(x,\[Mu]), CT14HERA2NNLO\n\n", 
+       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+    {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
+     "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
    ItemStyle -> Directive[FontSize -> 18, GrayLevel[0]], ItemSize -> 14, 
    Alignment -> Left], 
@@ -2808,13 +2810,12 @@
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}}}, 
    {BaseStyle -> {FontSize -> 16}, Frame -> True, Axes -> False, 
-    PlotLabel -> Style["| Sensitivity to \!\(\*OverscriptBox[\(u\), \
-\(_\)]\)(x,\[Mu]) |, CT14HERA2NNLOall", 24, GrayLevel[0]], 
-    FrameLabel -> 
-     {Style[
-       "| Sensitivity to \!\(\*OverscriptBox[\(u\), \(_\)]\)(x,\[Mu]) |", 18, 
-       GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+    PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for \
+\!\(\*OverscriptBox[\(u\), \(_\)]\)(x,\[Mu]), CT14HERA2NNLO", 24, 
+      GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -4130,8 +4131,9 @@
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to g(x,\[Mu]) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for g(x,\[Mu]), CT14HERA2NNLO"\
+, 24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
        Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
       GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
@@ -4177,8 +4179,10 @@
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to g(x,\[Mu]) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[
+   {
+    {Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for g(x,\[Mu]), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -4275,10 +4279,12 @@
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, 
     Axes -> False, PlotLabel -> 
-     Style["| Sensitivity to g(x,\[Mu]) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to g(x,\[Mu]) |", 
-       18, GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for g(x,\[Mu]), CT14HERA2NNLO", 
+      24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -5605,8 +5611,9 @@
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to u(x,\[Mu]) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for u(x,\[Mu]), CT14HERA2NNLO"\
+, 24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
        Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
       GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
@@ -5652,8 +5659,10 @@
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to u(x,\[Mu]) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[
+   {
+    {Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for u(x,\[Mu]), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -5751,10 +5760,12 @@
       {}, {}}}, {{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, 
     Axes -> False, PlotLabel -> 
-     Style["| Sensitivity to u(x,\[Mu]) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to u(x,\[Mu]) |", 
-       18, GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for u(x,\[Mu]), CT14HERA2NNLO", 
+      24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -7080,8 +7091,9 @@
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to d(x,\[Mu]) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for d(x,\[Mu]), CT14HERA2NNLO"\
+, 24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
        Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
       GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
@@ -7127,8 +7139,10 @@
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to d(x,\[Mu]) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[
+   {
+    {Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for d(x,\[Mu]), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -7235,10 +7249,12 @@
       {}, {}}}, {{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, 
     Axes -> False, PlotLabel -> 
-     Style["| Sensitivity to d(x,\[Mu]) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to d(x,\[Mu]) |", 
-       18, GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for d(x,\[Mu]), CT14HERA2NNLO", 
+      24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -8535,8 +8551,9 @@
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to s(x,\[Mu]) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for s(x,\[Mu]), CT14HERA2NNLO"\
+, 24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
        Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
       GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
@@ -8582,8 +8599,10 @@
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to s(x,\[Mu]) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[
+   {
+    {Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for s(x,\[Mu]), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -8637,10 +8656,12 @@
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, 
     Frame -> True, Axes -> False, PlotLabel -> 
-     Style["| Sensitivity to s(x,\[Mu]) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to s(x,\[Mu]) |", 
-       18, GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for s(x,\[Mu]), CT14HERA2NNLO", 
+      24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -9955,8 +9976,9 @@
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to c(x,\[Mu]) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for c(x,\[Mu]), CT14HERA2NNLO"\
+, 24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
        Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
       GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
@@ -10002,8 +10024,10 @@
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to c(x,\[Mu]) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[
+   {
+    {Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for c(x,\[Mu]), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -10098,10 +10122,12 @@
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, 
     Frame -> True, Axes -> False, PlotLabel -> 
-     Style["| Sensitivity to c(x,\[Mu]) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to c(x,\[Mu]) |", 
-       18, GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for c(x,\[Mu]), CT14HERA2NNLO", 
+      24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -11411,8 +11437,9 @@
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to b(x,\[Mu]) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for b(x,\[Mu]), CT14HERA2NNLO"\
+, 24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
        Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
       GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
@@ -11458,8 +11485,10 @@
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to b(x,\[Mu]) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[
+   {
+    {Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for b(x,\[Mu]), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -11555,10 +11584,12 @@
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, 
     Frame -> True, Axes -> False, PlotLabel -> 
-     Style["| Sensitivity to b(x,\[Mu]) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to b(x,\[Mu]) |", 
-       18, GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for b(x,\[Mu]), CT14HERA2NNLO", 
+      24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -12879,16 +12910,15 @@
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style[
-       "| Sensitivity to  sig(H0), 7 TeV |, CT14HERA2NNLOall", 24, 
-       GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
-       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
-      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
-     GridLines -> {{-16.11809565095832, -13.815510557964274, 
-        -11.512925464970229, -9.210340371976182, -6.907755278982137, 
-        -4.605170185988091, -2.3025850929940455}, {Log[10], Log[50], 
-        Log[100], Log[500], Log[1000], Log[5000], Log[10000]}}, 
-     GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
+     PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  sig(H0), \
+7 TeV, CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+      {Style["x", 18, GrayLevel[0]], Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, 
+     FrameTicksStyle -> GrayLevel[0], ImageSize -> {{600}, {600}}, 
+     AspectRatio -> 1., GridLines -> {{-16.11809565095832, 
+        -13.815510557964274, -11.512925464970229, -9.210340371976182, 
+        -6.907755278982137, -4.605170185988091, -2.3025850929940455}, 
+       {Log[10], Log[50], Log[100], Log[500], Log[1000], Log[5000], 
+        Log[10000]}}, GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
      PlotRangeClipping -> True, DisplayFunction -> Identity, 
      PlotRangePadding -> {{0, 0}, {0, 0}}, AxesOrigin -> 
       {0, 3.9367312175411926}, PlotRange -> {{-9.210340371976182, 0}, 
@@ -12927,8 +12957,8 @@
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to  sig(H0), 7 TeV |, \
-CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[{{Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  sig(H0), 7 \
+TeV, CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -13004,10 +13034,9 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, Axes -> False, 
-    PlotLabel -> Style[
-      "| Sensitivity to  sig(H0), 7 TeV |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> 
-     {Style["| Sensitivity to  sig(H0), 7 TeV |", 18, GrayLevel[0]], 
+    PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  sig(H0), \
+7 TeV, CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
       Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
     AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
@@ -14332,16 +14361,15 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style[
-       "| Sensitivity to  sig(H0), 8 TeV |, CT14HERA2NNLOall", 24, 
-       GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
-       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
-      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
-     GridLines -> {{-16.11809565095832, -13.815510557964274, 
-        -11.512925464970229, -9.210340371976182, -6.907755278982137, 
-        -4.605170185988091, -2.3025850929940455}, {Log[10], Log[50], 
-        Log[100], Log[500], Log[1000], Log[5000], Log[10000]}}, 
-     GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
+     PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  sig(H0), \
+8 TeV, CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+      {Style["x", 18, GrayLevel[0]], Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, 
+     FrameTicksStyle -> GrayLevel[0], ImageSize -> {{600}, {600}}, 
+     AspectRatio -> 1., GridLines -> {{-16.11809565095832, 
+        -13.815510557964274, -11.512925464970229, -9.210340371976182, 
+        -6.907755278982137, -4.605170185988091, -2.3025850929940455}, 
+       {Log[10], Log[50], Log[100], Log[500], Log[1000], Log[5000], 
+        Log[10000]}}, GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
      PlotRangeClipping -> True, DisplayFunction -> Identity, 
      PlotRangePadding -> {{0, 0}, {0, 0}}, AxesOrigin -> 
       {0, 3.9367312175411926}, PlotRange -> {{-9.210340371976182, 0}, 
@@ -14380,8 +14408,8 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to  sig(H0), 8 TeV |, \
-CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[{{Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  sig(H0), 8 \
+TeV, CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -14457,10 +14485,9 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, Axes -> False, 
-    PlotLabel -> Style[
-      "| Sensitivity to  sig(H0), 8 TeV |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> 
-     {Style["| Sensitivity to  sig(H0), 8 TeV |", 18, GrayLevel[0]], 
+    PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  sig(H0), \
+8 TeV, CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
       Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
     AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
@@ -15785,16 +15812,15 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style[
-       "| Sensitivity to  sig(H0), 14 TeV |, CT14HERA2NNLOall", 24, 
-       GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
-       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
-      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
-     GridLines -> {{-16.11809565095832, -13.815510557964274, 
-        -11.512925464970229, -9.210340371976182, -6.907755278982137, 
-        -4.605170185988091, -2.3025850929940455}, {Log[10], Log[50], 
-        Log[100], Log[500], Log[1000], Log[5000], Log[10000]}}, 
-     GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
+     PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  sig(H0), \
+14 TeV, CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+      {Style["x", 18, GrayLevel[0]], Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, 
+     FrameTicksStyle -> GrayLevel[0], ImageSize -> {{600}, {600}}, 
+     AspectRatio -> 1., GridLines -> {{-16.11809565095832, 
+        -13.815510557964274, -11.512925464970229, -9.210340371976182, 
+        -6.907755278982137, -4.605170185988091, -2.3025850929940455}, 
+       {Log[10], Log[50], Log[100], Log[500], Log[1000], Log[5000], 
+        Log[10000]}}, GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
      PlotRangeClipping -> True, DisplayFunction -> Identity, 
      PlotRangePadding -> {{0, 0}, {0, 0}}, AxesOrigin -> 
       {0, 3.9367312175411926}, PlotRange -> {{-9.210340371976182, 0}, 
@@ -15833,9 +15859,8 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[
-   {{Text[Style["| Sensitivity to  sig(H0), 14 TeV |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[{{Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  sig(H0), 14 \
+TeV, CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -15917,10 +15942,9 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}}}, 
    {BaseStyle -> {FontSize -> 16}, Frame -> True, Axes -> False, 
-    PlotLabel -> Style[
-      "| Sensitivity to  sig(H0), 14 TeV |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> 
-     {Style["| Sensitivity to  sig(H0), 14 TeV |", 18, GrayLevel[0]], 
+    PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  sig(H0), \
+14 TeV, CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
       Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
     AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
@@ -17219,8 +17243,9 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to  s+(x,mu) |, CT14HERA2NNLOall", 24, 
-       GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  s+(x,mu), CT14HERA2NNLO", 
+       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
        Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
       GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
@@ -17266,8 +17291,11 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to  s+(x,mu) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[
+   {
+    {Text[Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  s+(x,mu), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -17321,10 +17349,12 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, 
     Frame -> True, Axes -> False, PlotLabel -> 
-     Style["| Sensitivity to  s+(x,mu) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to  s+(x,mu) |", 18, 
-       GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  s+(x,mu), CT14HERA2NNLO", 
+      24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -18643,15 +18673,16 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to  u_val(x,mu) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
-       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
-      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
-     GridLines -> {{-16.11809565095832, -13.815510557964274, 
-        -11.512925464970229, -9.210340371976182, -6.907755278982137, 
-        -4.605170185988091, -2.3025850929940455}, {Log[10], Log[50], 
-        Log[100], Log[500], Log[1000], Log[5000], Log[10000]}}, 
-     GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  u_val(x,mu), \
+CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+      {Style["x", 18, GrayLevel[0]], Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, 
+     FrameTicksStyle -> GrayLevel[0], ImageSize -> {{600}, {600}}, 
+     AspectRatio -> 1., GridLines -> {{-16.11809565095832, 
+        -13.815510557964274, -11.512925464970229, -9.210340371976182, 
+        -6.907755278982137, -4.605170185988091, -2.3025850929940455}, 
+       {Log[10], Log[50], Log[100], Log[500], Log[1000], Log[5000], 
+        Log[10000]}}, GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
      PlotRangeClipping -> True, DisplayFunction -> Identity, 
      PlotRangePadding -> {{0, 0}, {0, 0}}, AxesOrigin -> 
       {0, 3.9367312175411926}, PlotRange -> {{-9.210340371976182, 0}, 
@@ -18690,8 +18721,8 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to  u_val(x,mu) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[{{Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  u_val(x,mu), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -18795,10 +18826,12 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
       {}, {}}}, {{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, 
     Axes -> False, PlotLabel -> 
-     Style["| Sensitivity to  u_val(x,mu) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to  u_val(x,mu) |", 
-       18, GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  u_val(x,mu), \
+CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -20129,15 +20162,16 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to  d_val(x,mu) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
-       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
-      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
-     GridLines -> {{-16.11809565095832, -13.815510557964274, 
-        -11.512925464970229, -9.210340371976182, -6.907755278982137, 
-        -4.605170185988091, -2.3025850929940455}, {Log[10], Log[50], 
-        Log[100], Log[500], Log[1000], Log[5000], Log[10000]}}, 
-     GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  d_val(x,mu), \
+CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+      {Style["x", 18, GrayLevel[0]], Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, 
+     FrameTicksStyle -> GrayLevel[0], ImageSize -> {{600}, {600}}, 
+     AspectRatio -> 1., GridLines -> {{-16.11809565095832, 
+        -13.815510557964274, -11.512925464970229, -9.210340371976182, 
+        -6.907755278982137, -4.605170185988091, -2.3025850929940455}, 
+       {Log[10], Log[50], Log[100], Log[500], Log[1000], Log[5000], 
+        Log[10000]}}, GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
      PlotRangeClipping -> True, DisplayFunction -> Identity, 
      PlotRangePadding -> {{0, 0}, {0, 0}}, AxesOrigin -> 
       {0, 3.9367312175411926}, PlotRange -> {{-9.210340371976182, 0}, 
@@ -20176,8 +20210,8 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to  d_val(x,mu) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[{{Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  d_val(x,mu), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -20253,10 +20287,12 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
           Style[1, {}]]}}}, {}, {}}}, {{}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, 
     Axes -> False, PlotLabel -> 
-     Style["| Sensitivity to  d_val(x,mu) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to  d_val(x,mu) |", 
-       18, GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  d_val(x,mu), \
+CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -21561,15 +21597,16 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to  db/ub(x,mu) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
-       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
-      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
-     GridLines -> {{-16.11809565095832, -13.815510557964274, 
-        -11.512925464970229, -9.210340371976182, -6.907755278982137, 
-        -4.605170185988091, -2.3025850929940455}, {Log[10], Log[50], 
-        Log[100], Log[500], Log[1000], Log[5000], Log[10000]}}, 
-     GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  db/ub(x,mu), \
+CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+      {Style["x", 18, GrayLevel[0]], Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, 
+     FrameTicksStyle -> GrayLevel[0], ImageSize -> {{600}, {600}}, 
+     AspectRatio -> 1., GridLines -> {{-16.11809565095832, 
+        -13.815510557964274, -11.512925464970229, -9.210340371976182, 
+        -6.907755278982137, -4.605170185988091, -2.3025850929940455}, 
+       {Log[10], Log[50], Log[100], Log[500], Log[1000], Log[5000], 
+        Log[10000]}}, GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
      PlotRangeClipping -> True, DisplayFunction -> Identity, 
      PlotRangePadding -> {{0, 0}, {0, 0}}, AxesOrigin -> 
       {0, 3.9367312175411926}, PlotRange -> {{-9.210340371976182, 0}, 
@@ -21608,8 +21645,8 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to  db/ub(x,mu) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[{{Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  db/ub(x,mu), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -21660,9 +21697,10 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
             0]}}}}, {}, {}}}, {{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, Axes -> False, 
-    PlotLabel -> Style["| Sensitivity to  db/ub(x,mu) |, CT14HERA2NNLOall", 
-      24, GrayLevel[0]], FrameLabel -> 
-     {Style["| Sensitivity to  db/ub(x,mu) |", 18, GrayLevel[0]], 
+    PlotLabel -> Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  db/ub(x,mu), \
+CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
       Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
     AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
@@ -22991,8 +23029,9 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to  d/u(x,mu) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  d/u(x,mu), CT14HERA2NNLO"\
+, 24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
        Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
       GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
@@ -23038,8 +23077,10 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to  d/u(x,mu) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[
+   {
+    {Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  d/u(x,mu), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -23138,10 +23179,12 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
                  0]}]]}, 1], Style[1, {}]]}}}, {}, {}}}, 
     {{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, Axes -> False, 
-    PlotLabel -> Style["| Sensitivity to  d/u(x,mu) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to  d/u(x,mu) |", 
-       18, GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+    PlotLabel -> Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  d/u(x,mu), CT14HERA2NNLO", 
+      24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -24437,11 +24480,11 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style[
-       "| Sensitivity to  g/(ub+db+sb)(x,mu) |, CT14HERA2NNLOall", 24, 
-       GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
-       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
-      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
+     PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  \
+g/(ub+db+sb)(x,mu), CT14HERA2NNLO", 24, GrayLevel[0]], 
+     FrameLabel -> {Style["x", 18, GrayLevel[0]], Style["\[Mu] [GeV]", 18, 
+        GrayLevel[0]]}, FrameTicksStyle -> GrayLevel[0], 
+     ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
      GridLines -> {{-16.11809565095832, -13.815510557964274, 
         -11.512925464970229, -9.210340371976182, -6.907755278982137, 
         -4.605170185988091, -2.3025850929940455}, {Log[10], Log[50], 
@@ -24485,11 +24528,10 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[
-   {{Text[Style["| Sensitivity to  g/(ub+db+sb)(x,mu) |, \
-CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
-    {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
-     "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
+  Grid[{{Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  \
+g/(ub+db+sb)(x,mu), CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, 
+    {"Data Sets"}, {"\[FilledCircle]CMS7jtR7y6(542)", 
+     "\[FilledSquare]ATL7jtR6u(544)", "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
    ItemStyle -> Directive[FontSize -> 18, GrayLevel[0]], ItemSize -> 14, 
    Alignment -> Left], 
@@ -24541,12 +24583,11 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}}}, 
    {BaseStyle -> {FontSize -> 16}, Frame -> True, Axes -> False, 
-    PlotLabel -> Style[
-      "| Sensitivity to  g/(ub+db+sb)(x,mu) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> 
-     {Style["| Sensitivity to  g/(ub+db+sb)(x,mu) |", 18, GrayLevel[0]], 
-      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
-    AspectRatio -> 1, PlotRangeClipping -> True, 
+    PlotLabel -> Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  \
+g/(ub+db+sb)(x,mu), CT14HERA2NNLO", 24, GrayLevel[0]], 
+    FrameLabel -> {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, 
+       GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
+    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 
@@ -25865,15 +25906,16 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
         {10.596634733096073, ""}, {10.819778284410283, ""}, 
         {11.002099841204238, ""}, {11.156250521031495, ""}, 
         {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
-     PlotLabel -> Style["| Sensitivity to  g(0.01,mH) |, CT14HERA2NNLOall", 
-       24, GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
-       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
-      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
-     GridLines -> {{-16.11809565095832, -13.815510557964274, 
-        -11.512925464970229, -9.210340371976182, -6.907755278982137, 
-        -4.605170185988091, -2.3025850929940455}, {Log[10], Log[50], 
-        Log[100], Log[500], Log[1000], Log[5000], Log[10000]}}, 
-     GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
+     PlotLabel -> Style[
+       "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  g(0.01,mH), \
+CT14HERA2NNLO", 24, GrayLevel[0]], FrameLabel -> 
+      {Style["x", 18, GrayLevel[0]], Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, 
+     FrameTicksStyle -> GrayLevel[0], ImageSize -> {{600}, {600}}, 
+     AspectRatio -> 1., GridLines -> {{-16.11809565095832, 
+        -13.815510557964274, -11.512925464970229, -9.210340371976182, 
+        -6.907755278982137, -4.605170185988091, -2.3025850929940455}, 
+       {Log[10], Log[50], Log[100], Log[500], Log[1000], Log[5000], 
+        Log[10000]}}, GridLinesStyle -> Directive[Dashing[{Small, Small}]], 
      PlotRangeClipping -> True, DisplayFunction -> Identity, 
      PlotRangePadding -> {{0, 0}, {0, 0}}, AxesOrigin -> 
       {0, 3.9367312175411926}, PlotRange -> {{-9.210340371976182, 0}, 
@@ -25912,8 +25954,9 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      LegendLabel -> "", LegendLayout -> "Column", LegendMarkerSize -> {}, 
      Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
      ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
-  Grid[{{Text[Style["| Sensitivity to  g(0.01,mH) |, CT14HERA2NNLOall\n\n", 
-       FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  Grid[
+   {{Text[Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  g(0.01,mH), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
     {"\[FilledCircle]CMS7jtR7y6(542)", "\[FilledSquare]ATL7jtR6u(544)", 
      "\[FilledDiamond]CMS8jtR7v5(545)"}, {}, 
     {Text[Style["", FontSize -> 16]], SpanFromLeft}}, 
@@ -25999,10 +26042,12 @@ CT14HERA2NNLOall\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"},
      {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
      {}, {}, {}, {}, {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, 
     Axes -> False, PlotLabel -> 
-     Style["| Sensitivity to  g(0.01,mH) |, CT14HERA2NNLOall", 24, 
-      GrayLevel[0]], FrameLabel -> {Style["| Sensitivity to  g(0.01,mH) |", 
-       18, GrayLevel[0]], Style["#points", 18, GrayLevel[0]]}, 
-    ImageSize -> {{600}, {600}}, AspectRatio -> 1, PlotRangeClipping -> True, 
+     Style[
+      "| \!\(\*SubscriptBox[\(S\), \(f\)]\) | for  g(0.01,mH), CT14HERA2NNLO"\
+, 24, GrayLevel[0]], FrameLabel -> 
+     {Style["| \!\(\*SubscriptBox[\(S\), \(f\)]\) |", 18, GrayLevel[0]], 
+      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
+    AspectRatio -> 1, PlotRangeClipping -> True, 
     AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
     AxesLabel -> {None, None}, AxesOrigin -> {-0.048, 0.}, BaseStyle -> {}, 
     Epilog -> {{Thickness[Large], {Text[Style["", 16, RGBColor[0.7, 0., 0.]], 

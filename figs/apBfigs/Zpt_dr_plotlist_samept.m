@@ -453,7 +453,7 @@
        {11.002099841204238, ""}, {11.156250521031495, ""}, 
        {11.289781913656018, ""}, {11.407564949312402, ""}}}, Axes -> False, 
     PlotLabel -> Style[
-      "\!\(\*SubscriptBox[\(\[Delta]r\), \(i\)]\), CT14HERA2NNLOall", 24, 
+      "\!\(\*SubscriptBox[\(\[Delta]r\), \(i\)]\), CT14HERA2NNLO", 24, 
       GrayLevel[0]], FrameLabel -> {Style["x", 18, GrayLevel[0]], 
       Style["\[Mu] [GeV]", 18, GrayLevel[0]]}, FrameTicksStyle -> 
      GrayLevel[0], ImageSize -> {{600}, {600}}, AspectRatio -> 1., 
@@ -499,10 +499,8 @@
     Charting`TickAnnotations -> None, Charting`TickSide -> Right, 
     ColorFunctionScaling -> True], {1., 0.5}, Identity]], 
  Grid[
-  {
-   {Text[Style[
-      "\!\(\*SubscriptBox[\(\[Delta]r\), \(i\)]\), CT14HERA2NNLOall\n\n", 
-      FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
+  {{Text[Style["\!\(\*SubscriptBox[\(\[Delta]r\), \(i\)]\), \
+CT14HERA2NNLO\n\n", FontSize -> 24]], SpanFromLeft}, {"Data Sets"}, 
    {"\[FilledCircle]ATL7Zpt(247)", "\[FilledSquare]ATL8ZpTv3(253)", 
     "\[FilledDiamond]CMS8Zptyv3(254)"}, 
    {"\[FilledUpTriangle]CMS8NWZpT(255)"}, {Text[Style["", FontSize -> 16]], 
@@ -559,7 +557,7 @@
     {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, 
     {}, {}}}, {BaseStyle -> {FontSize -> 16}, Frame -> True, Axes -> False, 
    PlotLabel -> 
-    Style["\!\(\*SubscriptBox[\(\[Delta]r\), \(i\)]\), CT14HERA2NNLOall", 24, 
+    Style["\!\(\*SubscriptBox[\(\[Delta]r\), \(i\)]\), CT14HERA2NNLO", 24, 
      GrayLevel[0]], FrameLabel -> 
     {Style["\!\(\*SubscriptBox[\(\[Delta]r\), \(i\)]\)", 18, GrayLevel[0]], 
      Style["#points", 18, GrayLevel[0]]}, ImageSize -> {{600}, {600}}, 
