@@ -42446,7 +42446,7 @@ status collapsed
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -50516,6 +50516,14 @@ reference "tab4"
 
 \end_inset
 
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:tab4vals"
+
+\end_inset
+
 
 \end_layout
 
@@ -50553,7 +50561,7 @@ status collapsed
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -58148,6 +58156,14 @@ reference "tab5"
 
 \end_inset
 
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:tab5vals"
+
+\end_inset
+
 
 \end_layout
 
@@ -58185,7 +58201,7 @@ status collapsed
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -62108,6 +62124,14 @@ values for Table
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab6"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:tab6vals"
 
 \end_inset
 
